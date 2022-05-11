@@ -1,0 +1,19 @@
+{
+  "name": "srilankan-universities-faculties-degrees",
+  "version": "1.0.0",
+  "description": "Library to fetch all Sri Lankan Universities, Faculties and their Degree programmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm.git"
+  },
+  "author": "Dinush Chathurya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm/issues"
+  },
+  "homepage": "https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm#readme"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "lankan-universities-faculties-degrees",
+  "name": "@dinush/srilankan-universities-faculties-degrees-npm",
   "version": "1.0.0",
   "description": "Library to fetch all Sri Lankan Universities, Faculties and their Degree programmes",
   "main": "index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@dinushchathurya/srilankan-universities-faculties-degrees",
+  "name": "@dinushchathurya/srilankan-universities-faculties-degrees-npm",
   "version": "1.0.0",
   "description": "Library to fetch all Sri Lankan Universities, Faculties and their Degree programmes",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm.git"
   },
-  "author": "Dinush Chathurya",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm/issues"
   },

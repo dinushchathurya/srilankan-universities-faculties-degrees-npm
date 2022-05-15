@@ -13,9 +13,9 @@
 <img src="https://img.shields.io/badge/made%20with%20love-by%20srilanka-orange">
 </p>
 
-<h1 align="center">All Srilankan Universities, Faculties and Undegraduate Degree Programs</h1>
+<h1 align="center">All Srilankan Universities, Faculties and Undergraduate Degree Programs</h1>
   <p align="center">
-    This package contains all Srilankan Universities, Faculties and Undegraduate Degree Programs.
+    This package contains all Srilankan Universities, Faculties and Undergraduate Degree Programs.
   </p><br><br>
 </div>
 

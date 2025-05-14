@@ -17,6 +17,8 @@
   </p><br><br>
 </div>
 
+⚠️ CAUTION: This package has been updated to be fully compatible with TypeScript, providing enhanced type safety and a modern API. However, please note that the current version (2.0.0-rc.1) is a release candidate and should be used with care. Some data lookups might not function correctly due to ID inconsistencies between universities, faculties, and degrees data. To install the release candidate version, use `npm install @dinush/srilankan-universities-faculties-degrees@next`. We're actively working to fix these inconsistencies for the stable release. 
+
 ## Table of Contents
 <ol>
     <li><a href="#installation">Installation</a></li>

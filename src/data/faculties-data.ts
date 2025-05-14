@@ -19,7 +19,7 @@ export const facultiesData: Faculty[] = [
   { id: 'faculty-of-engineering', universityId: 'university-of-peradeniya', name: 'Faculty of Engineering' },
   { id: 'faculty-of-medicine-peradeniya', universityId: 'university-of-peradeniya', name: 'Faculty of Medicine' },
   { id: 'faculty-of-science-peradeniya', universityId: 'university-of-peradeniya', name: 'Faculty of Science' },
-  { id: 'faculty-of-veterinary-medicine', universityId: 'university-of-peradeniya', name: 'Faculty of Veterinary Medicine & Animal Science' },
+  { id: 'faculty-of-veterinary-medicine', universityId: 'university-of-peradeniya', name: 'Faculty of Veterinary Medicine' },
 
   // University of Sri Jayewardenepura
   { id: 'faculty-of-applied-sciences', universityId: 'university-of-sri-jayewardenepura', name: 'Faculty of Applied Sciences' },

@@ -1,11 +1,3 @@
-/**
- * Sri Lankan Universities, Faculties, and Degrees
- * A TypeScript package providing data for Sri Lankan higher education institutions
- * 
- * @author Dinush Chathurya
- * @license MIT
- */
-
 // Export types
 export { University, Faculty, Degree } from './types';
 
@@ -31,9 +23,9 @@ export {
 export {
   getUniversities,
   getFaculties,
-  getDegrees,
-  legacyAPI as universities_data
+  getDegrees
 } from './compatibility';
+export { legacyData as universities_data } from './data';
 
 // Default export for CommonJS compatibility
 import { legacyAPI } from './compatibility';

@@ -22,9 +22,11 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#api-reference">API Reference</a></li>
+    <li><a href="#framework-examples">Framework Example</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#author">Author</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#author">Author</a></li>
 </ol>
 
 ## Installation
@@ -146,6 +148,13 @@ These functions are maintained for backward compatibility:
 - `getFaculties(university)`: Returns array of faculty names
 - `getDegrees(university, faculty)`: Returns array of degree names
 
+## Framework Examples 
+
+- [NodeJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/node-demo)
+- [ReactJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/react-demo)
+- [NextJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/next-demo)
+- [NestJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/nest-demo)
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -159,12 +168,20 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Author 
-
-Author [Dinush Chathurya](https://dinushchathurya.github.io/)
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Copyright (c) 2022 [Dinush Chathurya](https://dinushchathurya.github.io/) and [codingtricks.io](https://codingtricks.io/)
+## Support
+
+<p align="center">
+    <a href="https://www.patreon.com/bePatron?u=35199964" target="_blank">
+        <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
+    </a>
+</p>
+
+## Author
+
+<p align="center">
+    Made with ❤️ & ☕ by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a>
+</p

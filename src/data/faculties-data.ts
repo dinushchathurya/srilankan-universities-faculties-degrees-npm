@@ -25,7 +25,7 @@ export const facultiesData: Faculty[] = [
   // University of Sri Jayewardenepura
   { id: 'faculty-of-applied-sciences', universityId: 'university-of-sri-jayewardenepura', name: 'Faculty of Applied Sciences' },
   { id: 'faculty-of-humanities-social-sciences', universityId: 'university-of-sri-jayewardenepura', name: 'Faculty of Humanities & Social Sciences' },
-  { id: 'faculty-of-management-studies', universityId: 'university-of-sri-jayewardenepura', name: 'Faculty of Management Studies and Commerce' },
+  { id: 'faculty-of-management-studies-and-commerce', universityId: 'university-of-sri-jayewardenepura', name: 'Faculty of Management Studies and Commerce' }, // Changed ID for consistency
   { id: 'faculty-of-medical-sciences', universityId: 'university-of-sri-jayewardenepura', name: 'Faculty of Medical Sciences' },
 
   // University of Kelaniya
@@ -57,7 +57,7 @@ export const facultiesData: Faculty[] = [
   { id: 'faculty-of-science-ruhuna', universityId: 'university-of-ruhuna', name: 'Faculty of Science' },
 
   // The Open University of Sri Lanka
-  { id: 'faculty-of-education-ousl', universityId: 'open-university-of-sri-lanka', name: 'Faculty of Education' },
+  { id: 'faculty-of-education-ousl', universityId: 'open-university-of-sri-lanka', name: 'Faculty of Education' }, // Consistent with degrees data
   { id: 'faculty-of-engineering-technology', universityId: 'open-university-of-sri-lanka', name: 'Faculty of Engineering Technology' },
   { id: 'faculty-of-humanities-ousl', universityId: 'open-university-of-sri-lanka', name: 'Faculty of Humanities & Social Sciences' },
   { id: 'faculty-of-natural-sciences', universityId: 'open-university-of-sri-lanka', name: 'Faculty of Natural Sciences' },

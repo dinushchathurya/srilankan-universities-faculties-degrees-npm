@@ -546,19 +546,17 @@ export const legacyData: LegacyUniversityData = {
       "Bachelor of Industrial Information Technology",
       "Bachelor of Science in Computer Sc. & Tech.",
       "Bachelor of Science in Mineral Resources & Technology",
-      "Bachelor of Technology"
-    ],
-    "Faculty of Management": [
-      "Bachelor of Business Management in Entrepreneurship & Management",
-      "Bachelor of Business Management in Hospitality,Tourism & Events Management"
-    ],
-    "Faculty of Science & Technology": [
+      "Bachelor of Technology",
       "Bachelor of Animal Science",
       "Bachelor of Science in Aquatic Resources Technology",
       "Bachelor of Science in Computer Science and Technology",
       "Bachelor of Science in Export Agriculture",
       "Bachelor of Science in Industrial InformationTechnology",
       "Bachelor of Science in Palm & Latex Tech.& Value Addition"
+    ],
+    "Faculty of Management": [
+      "Bachelor of Business Management in Entrepreneurship & Management",
+      "Bachelor of Business Management in Hospitality,Tourism & Events Management"
     ]
   },
   "University of the Visual and Performing Arts": {

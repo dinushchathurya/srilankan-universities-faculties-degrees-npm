@@ -46,7 +46,7 @@ jobs:
       
       - name: Publish to NPM (Release Candidate)
         if: steps.check_rc.outputs.IS_RC == 'true'
-        run: npm publish --tag next
+        run: npm publish --tag next --force
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       

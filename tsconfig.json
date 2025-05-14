@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "target": "ES2020",
     "module": "ESNext",
     "moduleResolution": "node",
-    "declaration": true,
-    "outDir": "./dist/esm",
-    "strict": true,
     "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "removeComments": false,
-    "sourceMap": true
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "tests"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

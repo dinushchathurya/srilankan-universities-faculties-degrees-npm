@@ -2,47 +2,24 @@
   "name": "@dinush/srilankan-universities-faculties-degrees",
   "version": "2.0.0",
   "description": "Library to fetch all Sri Lankan Universities, Faculties and their Degree programmes",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js",
-      "types": "./dist/esm/index.d.ts"
-    },
-    "./universities": {
-      "import": "./dist/esm/universities.js",
-      "require": "./dist/cjs/universities.js",
-      "types": "./dist/esm/universities.d.ts"
-    },
-    "./faculties": {
-      "import": "./dist/esm/faculties.js",
-      "require": "./dist/cjs/faculties.js",
-      "types": "./dist/esm/faculties.d.ts"
-    },
-    "./degrees": {
-      "import": "./dist/esm/degrees.js",
-      "require": "./dist/cjs/degrees.js",
-      "types": "./dist/esm/degrees.d.ts"
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
-    "dist",
-    "compatibility",
-    "index.js",
-    "LICENSE",
-    "README.md"
+    "dist"
   ],
   "scripts": {
-    "clean": "rimraf dist",
-    "build:esm": "tsc -p tsconfig.json",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
-    "build": "npm run clean && npm run build:esm && npm run build:cjs",
-    "test:js": "jest tests/js",
-    "test:ts": "jest tests/ts",
-    "test": "npm run test:js && npm run test:ts",
-    "prepublishOnly": "npm run build && npm run test"
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build",
+    "release": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -54,7 +31,8 @@
     "faculties",
     "degrees",
     "education",
-    "typescript"
+    "typescript",
+    "esm"
   ],
   "author": "Dinush Chathurya",
   "license": "MIT",
@@ -63,10 +41,8 @@
   },
   "homepage": "https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm#readme",
   "devDependencies": {
-    "@types/jest": "^29.5.10",
-    "jest": "^29.7.0",
-    "rimraf": "^5.0.1",
-    "ts-jest": "^29.1.1",
-    "typescript": "^5.3.2"
+    "typescript": "^5.0.4",
+    "tsup": "^7.2.0",
+    "vitest": "^0.34.6"
   }
 }

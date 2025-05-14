@@ -1,0 +1,2751 @@
+import { Degree } from '../types';
+
+/**
+ * Complete array of all degree programs offered by Sri Lankan universities
+ */
+export const degreesData: Degree[] = [
+  {
+    id: 'bachelor-of-arts-general-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-demography-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in Demography'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-economicss-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in Economicss'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-english-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in English'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-geography-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in Geography'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-history-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in History'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-international-relations-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in International Relations'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-political-science-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in Political Science'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sinhala-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in Sinhala'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sociology-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-art',
+    name: 'Bachelor of Arts (Special) in Sociology'
+  },
+  {
+    id: 'bachelor-of-education-special',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-education',
+    name: 'Bachelor of Education (Special)'
+  },
+  {
+    id: 'bachelor-of-laws-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-law',
+    name: 'Bachelor of Laws'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-accounting',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Accounting'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-business-economicss',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Business Economicss'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-finance',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Finance'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-hospitality-and-leisure-management',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Hospitality and Leisure Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-human-resource-management',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Human Resource Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-international-business',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in International Business'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-management-and-organizational-studies',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Management and Organizational Studies'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-marketing',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Marketing'
+  },
+  {
+    id: 'bachelor-of-science-in-physiotherapy-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Physiotherapy'
+  },
+  {
+    id: 'mbbs-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-medicine',
+    name: 'MBBS'
+  },
+  {
+    id: 'bachelor-of-science-special-in-bioinfomatics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Bioinfomatics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemical-biology-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Chemical Biology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemistry-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Chemistry'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computational-physics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Computational Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-engineering-physics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Engineering Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-environment-sciences-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Environment Sciences'
+  },
+  {
+    id: 'bachelor-of-science-special-in-finance-business-and-computational-mathematics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Finance, Business and Computational Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-financial-and-business-mathematics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Financial and Business Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-industrial-statistics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Industrial Statistics'
+  },
+  {
+    id: 'bachelor-of-science-general-in-industrial-statistics-and-mathematical-finance-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (General) in Industrial Statistics and Mathematical Finance'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematics-and-statistics-with-computer-science-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Mathematics and Statistics with Computer Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-molecular-biology-and-biochemistry-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Molecular Biology and Biochemistry'
+  },
+  {
+    id: 'bachelor-of-science-special-in-nuclear-medical-science-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Nuclear Medical Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-pharmacy-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Pharmacy'
+  },
+  {
+    id: 'bachelor-of-science-special-in-physics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-plant-biotechnology-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Plant Biotechnology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-plant-science-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Plant Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-statistics-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Statistics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-statistics-with-computer-science-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Statistics with Computer Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-zoology-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Zoology'
+  },
+  {
+    id: 'bachelor-of-science-biological-sciences-general-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Biological Sciences) (General)'
+  },
+  {
+    id: 'bachelor-of-science-physical-sciences-general-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Physical Sciences) (General)'
+  },
+  {
+    id: 'bachelor-of-science-in-biochemistry-and-molecular-biology-general-colombo',
+    universityId: 'university-of-colombo',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science in Biochemistry and Molecular Biology (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-agricultural-technology-and-management-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Science (Special) in Agricultural Technology and Management'
+  },
+  {
+    id: 'bachelor-of-science-in-animals-sciences-and-fisheries-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Science in Animals Sciences and Fisheries'
+  },
+  {
+    id: 'bachelor-of-science-in-food-science-and-technology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Science in Food Science and Technology'
+  },
+  {
+    id: 'bachelor-of-pharmacy-bpharm-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-allied-health-sciences',
+    name: 'Bachelor of Pharmacy (B.Pharm)'
+  },
+  {
+    id: 'bachelor-of-science-in-medical-laboratory-sciences-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-allied-health-sciences',
+    name: 'Bachelor of Science in Medical Laboratory Sciences'
+  },
+  {
+    id: 'bachelor-of-science-in-nursing-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-allied-health-sciences',
+    name: 'Bachelor of Science in Nursing'
+  },
+  {
+    id: 'bachelor-of-science-in-physiotherapy-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-allied-health-sciences',
+    name: 'Bachelor of Science in Physiotherapy'
+  },
+  {
+    id: 'bachelor-of-science-in-radiography-radiotherapy-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-allied-health-sciences',
+    name: 'Bachelor of Science in Radiography / Radiotherapy'
+  },
+  {
+    id: 'bachelor-of-arts-general-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-arabics-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Arabics'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-archaeology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Archaeology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-buddhist-studies-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Buddhist Studies'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-economicss-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Economicss'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-english-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in English'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-fine-arts-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Fine Arts'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-geography-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Geography'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-history-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in History'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-islamic-civilization-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Islamic Civilization'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-pali-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Pali'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-philosophy-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Philosophy'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-political-science-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Political Science'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-psychology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Psychology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sanskrit-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Sanskrit'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sinhala-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Sinhala'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sociology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Sociology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-tamill-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Tamill'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-western-classic-culture-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special) in Western Classic Culture'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-financial-management',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Business Administration (Special) in Financial Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-human-resource-management-1',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Business Administration (Special) in Human Resource Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-marketing-management',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Business Administration (Special) in Marketing Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-operations-management',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Business Administration (Special) in Operations Management'
+  },
+  {
+    id: 'bachelor-of-commerce-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Commerce'
+  },
+  {
+    id: 'bachelor-of-law',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Law'
+  },
+  {
+    id: 'bachelor-of-dental-surgery-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-dental-sciences',
+    name: 'Bachelor of Dental Surgery'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemical-and-process-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Chemical and Process Engineering'
+  },
+  {
+    id: 'bachelor-of-science-special-in-civil-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Civil Engineering'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computer-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Computer Engineering'
+  },
+  {
+    id: 'bachelor-of-science-special-in-electrical-and-electronic-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Electrical and Electronic Engineering'
+  },
+  {
+    id: 'bachelor-of-science-special-in-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Engineering'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mechanical-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Mechanical Engineering'
+  },
+  {
+    id: 'bachelor-of-science-special-in-production-engineering-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science (Special) in Production Engineering'
+  },
+  {
+    id: 'mbbs-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-medicine-peradeniya',
+    name: 'MBBS'
+  },
+  {
+    id: 'bachelor-of-science-general-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-animal-science-and-fisheries-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Animal Science and Fisheries'
+  },
+  {
+    id: 'bachelor-of-science-special-in-biology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Biology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-botany-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Botany'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemistry-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Chemistry'
+  },
+  {
+    id: 'bachelor-of-science-in-computation-and-management-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science in Computation and Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computer-science-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Computer Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-geology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Geology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematics-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-molecular-biology-and-biotechnology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Molecular Biology and Biotechnology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-physics-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-statistics-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Statistics'
+  },
+  {
+    id: 'bachelor-of-science-in-statistics-and-operations-research-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science in Statistics and Operations Research'
+  },
+  {
+    id: 'bachelor-of-science-special-in-zoology-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Special) in Zoology'
+  },
+  {
+    id: 'bachelor-of-science-applied-sciences-peradeniya',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-science-peradeniya',
+    name: 'Bachelor of Science (Applied Sciences)'
+  },
+  {
+    id: 'bachelor-of-veterinary-science',
+    universityId: 'university-of-peradeniya',
+    facultyId: 'faculty-of-veterinary-medicine-and-animal-science',
+    name: 'Bachelor of Veterinary Science'
+  },
+  {
+    id: 'bachelor-of-applied-science-in-food-technology',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Applied Science in Food Technology'
+  },
+  {
+    id: 'bachelor-of-science-general-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-biology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Biology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-botany-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Botany'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemistry-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Chemistry'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computer-science-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Computer Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-forestry-and-environmental-science-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Forestry and Environmental Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-geology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Geology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematics-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-molecular-biology-and-biotechnology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Molecular Biology and Biotechnology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-physics-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-plant-biotechnology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Plant Biotechnology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-statistics-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Statistics'
+  },
+  {
+    id: 'bachelor-of-arts-general-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-anthropology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Anthropology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-archaeology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Archaeology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-buddhist-civilization-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Buddhist Civilization'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-buddhist-philosophy-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Buddhist Philosophy'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-criminology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Criminology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-cultural-and-aesthetic-studies-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Cultural and Aesthetic Studies'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-economicss-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Economicss'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-english-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in English'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-french-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in French'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-geography-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Geography'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-hindi-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Hindi'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-history-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in History'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-management-information-technology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Management Information Technology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-mass-communication-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Mass Communication'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-pali-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Pali'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-philosophy-and-psychology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Philosophy and Psychology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-political-science-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Political Science'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sanskrit-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Sanskrit'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sinhala-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Sinhala'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-social-statistics-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Social Statistics'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sociology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Sociology'
+  },
+  {
+    id: 'bachelor-of-commerce-special-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Commerce (Special)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-accounting-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Accounting'
+  },
+  {
+    id: 'bachelor-of-science-special-in-business-administrations-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Business Administrations'
+  },
+  {
+    id: 'bachelor-of-science-special-in-business-administration-business-economicss-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Business Administration (Business Economicss)'
+  },
+  {
+    id: 'bachelor-of-science-in-business-administration-hrm-special-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science in Business Administration (HRM) (Special)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-business-information-systems-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Business Information Systems'
+  },
+  {
+    id: 'bachelor-of-science-special-in-estate-management-and-valuation-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Estate Management and Valuation'
+  },
+  {
+    id: 'bachelor-of-science-special-in-finance-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Finance'
+  },
+  {
+    id: 'bachelor-of-science-special-in-human-entrepreneurship-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Human Entrepreneurship'
+  },
+  {
+    id: 'bachelor-of-science-special-in-marketing-management-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Marketing Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-operations-and-technology-management-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Operations and Technology Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-public-management-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Science (Special) in Public Management'
+  },
+  {
+    id: 'bachelor-of-pharmacy-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-medical-sciences',
+    name: 'Bachelor of Pharmacy'
+  },
+  {
+    id: 'bachelor-of-science-in-human-biology-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-medical-sciences',
+    name: 'Bachelor of Science in Human Biology'
+  },
+  {
+    id: 'bachelor-of-science-in-medical-laboratory-sciences-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-medical-sciences',
+    name: 'Bachelor of Science in Medical Laboratory Sciences'
+  },
+  {
+    id: 'bachelor-of-science-in-nursing-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-medical-sciences',
+    name: 'Bachelor of Science in Nursing'
+  },
+  {
+    id: 'mbbs-sjp',
+    universityId: 'university-of-sri-jayewardenepura',
+    facultyId: 'faculty-of-medical-sciences',
+    name: 'MBBS'
+  },
+  {
+    id: 'bachelor-of-business-management-accountancy-special-degree-programme',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-commerce-and-management-studies',
+    name: 'Bachelor of Business Management (Accountancy) Special Degree Programme'
+  },
+  {
+    id: 'bachelor-of-business-management-finance-special-degree-programme',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-commerce-and-management-studies',
+    name: 'Bachelor of Business Management (Finance) Special Degree Programme'
+  },
+  {
+    id: 'bachelor-of-business-management-human-resource-special-degree-programme',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-commerce-and-management-studies',
+    name: 'Bachelor of Business Management (Human Resource) Special Degree Programme'
+  },
+  {
+    id: 'bachelor-of-commerce-special-degree-programme-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-commerce-and-management-studies',
+    name: 'Bachelor of Commerce (Special) Degree Programme'
+  },
+  {
+    id: 'bachelor-of-commerce-special-degree-in-entrepreneurship-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-commerce-and-management-studies',
+    name: 'Bachelor of Commerce Special Degree in Entrepreneurship'
+  },
+  {
+    id: 'bachelor-of-arts-general-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-humanities',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-humanities',
+    name: 'Bachelor of Arts (Special)'
+  },
+  {
+    id: 'bachelor-of-science-in-speech-and-hearing-sciences-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Speech and Hearing Sciences'
+  },
+  {
+    id: 'mbbs-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-medicine',
+    name: 'MBBS'
+  },
+  {
+    id: 'bachelor-of-science-general-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-botany-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Botany'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemistry-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Chemistry'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computer-science-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Computer Science'
+  },
+  {
+    id: 'bachelor-of-science-general-in-environmental-conservation-and-management-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (General) in Environmental Conservation and Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-environmental-conservation-and-management-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Environmental Conservation and Management'
+  },
+  {
+    id: 'bachelor-of-science-general-in-management-and-information-technology-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (General) in Management and Information Technology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematical-physics-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Mathematical Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematics-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-microbiology-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Microbiology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-molecular-biology-and-plant-biotechnology-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Molecular Biology and Plant Biotechnology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-statistics-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Statistics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-zoology-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Zoology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-information-technology-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Information Technology'
+  },
+  {
+    id: 'bachelor-of-science-special-software-engineering-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) Software Engineering'
+  },
+  {
+    id: 'bachelor-of-arts-general-kelaniya-1',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-social-sciences',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-kelaniya-1',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-social-sciences',
+    name: 'Bachelor of Arts (Special)'
+  },
+  {
+    id: 'bachelor-of-arts-in-peace-and-conflict-resolution-kelaniya',
+    universityId: 'university-of-kelaniya',
+    facultyId: 'faculty-of-social-sciences',
+    name: 'Bachelor of Arts in Peace and Conflict Resolution'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-design-fashion-design-and-product-development',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Design (Fashion Design and Product Development)'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-in-transport-and-logistics-management-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science in Transport and Logistics Management'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-civil-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Civil Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-computer-science-and-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Computer Science and Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-earth-resources-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Earth Resources Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-electrical-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Electrical Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-electronic-and-telecommunication-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Electronic and Telecommunication Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-engineering-honours-in-resource-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Engineering honours in resource engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-engineering-in-textile-and-clothing-technology-sp-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Engineering in textile and clothing Technology (SP)'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-material-science-and-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Material Science and Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-mechanical-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Mechanical Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-of-engineering-specialisation-textile-and-clothing-engineering-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of Science of Engineering - Specialisation: Textile and Clothing Engineering'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-the-science-of-engineering',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-engineering-moratuwa',
+    name: 'Honours Degree of Bachelor of the Science of Engineering'
+  },
+  {
+    id: 'bachelor-of-landscape-architecture',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-architecture',
+    name: 'Bachelor of Landscape Architecture'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-architecture',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-architecture',
+    name: 'Honours Degree of Bachelor of Architecture'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-architecture-1',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-architecture',
+    name: 'Honours Degree of Bachelor of Architecture'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-in-facilities-management-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-architecture',
+    name: 'Honours Degree of Bachelor of Science in Facilities Management'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-in-quantity-surveying-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-architecture',
+    name: 'Honours Degree of Bachelor of Science in Quantity Surveying'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-in-town-and-country-planning-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-architecture',
+    name: 'Honours Degree of Bachelor of Science in Town and Country Planning'
+  },
+  {
+    id: 'degree-of-bachelor-of-information-technology-external-degree',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-information-technology',
+    name: 'Degree of Bachelor of Information Technology - External Degree'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-in-information-technology-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-information-technology',
+    name: 'Degree of Bachelor of Science in Information Technology'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-in-information-technology-moratuwa-1',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-information-technology',
+    name: 'Degree of Bachelor of Science in Information Technology'
+  },
+  {
+    id: 'honours-degree-of-bachelor-of-science-in-information-technology-and-management-moratuwa',
+    universityId: 'university-of-moratuwa',
+    facultyId: 'faculty-of-information-technology',
+    name: 'Honours Degree of Bachelor of Science in Information Technology and Management'
+  },
+  {
+    id: 'bachelor-of-science-agriculture-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Science (Agriculture)'
+  },
+  {
+    id: 'bachelor-of-arts-general-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Arts (Special)'
+  },
+  {
+    id: 'bachelor-of-fine-arts-art-and-design',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Fine Arts (Art and Design)'
+  },
+  {
+    id: 'bachelor-of-fine-arts-dance',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Fine Arts (Dance)'
+  },
+  {
+    id: 'bachelor-of-fine-arts-music',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Fine Arts (Music)'
+  },
+  {
+    id: 'bachelor-of-law-1',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-arts',
+    name: 'Bachelor of Law'
+  },
+  {
+    id: 'bachelor-of-medicine-and-bachelor-of-surgery',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Medicine and Bachelor of Surgery'
+  },
+  {
+    id: 'bachelor-of-pharmacy-in-pharmacy-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Pharmacy in Pharmacy'
+  },
+  {
+    id: 'bachelor-of-science-in-medical-laboratory-sciences-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Medical Laboratory Sciences'
+  },
+  {
+    id: 'bachelor-of-science-in-nursing-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Nursing'
+  },
+  {
+    id: 'bachelor-of-science-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science'
+  },
+  {
+    id: 'bachelor-of-business-administration-accounting-special-special',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Business Administration (Accounting Special) (Special)'
+  },
+  {
+    id: 'bachelor-of-business-administration-financial-management-special-special',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Business Administration (Financial Management Special) (Special)'
+  },
+  {
+    id: 'bachelor-of-business-administration-human-resource-management-special-special',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Business Administration (Human Resource Management Special) (Special)'
+  },
+  {
+    id: 'bachelor-of-business-administration-marketing-special-special',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Business Administration (Marketing Special) (Special)'
+  },
+  {
+    id: 'bachelor-of-business-management-online',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Business Management (Online)'
+  },
+  {
+    id: 'bachelor-of-commerce-jaffna',
+    universityId: 'university-of-jaffna',
+    facultyId: 'faculty-of-management-studies-and-commerce',
+    name: 'Bachelor of Commerce'
+  },
+  {
+    id: 'bachelor-of-agribusiness-management',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Agribusiness Management'
+  },
+  {
+    id: 'bachelor-of-green-technology',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Green Technology'
+  },
+  {
+    id: 'bachelor-of-science-in-agricultural-resource-management-technology-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Science in Agricultural Resource Management Technology'
+  },
+  {
+    id: 'bachelor-of-science-of-engineering-specializing-in-civil-and-environmental-engineering-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science of Engineering specializing in Civil and Environmental Engineering'
+  },
+  {
+    id: 'bachelor-of-science-of-engineering-specializing-in-electrical-and-information-engineering-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science of Engineering specializing in Electrical and Information Engineering'
+  },
+  {
+    id: 'bachelor-of-science-of-engineering-specializing-in-mechanical-and-manufacturing-engineering-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-engineering',
+    name: 'Bachelor of Science of Engineering specializing in Mechanical and Manufacturing Engineering'
+  },
+  {
+    id: 'bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-aquaculture-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-fisheries-and-marine-sciences-and-technology',
+    name: 'Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Aquaculture'
+  },
+  {
+    id: 'bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-fisheries-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-fisheries-and-marine-sciences-and-technology',
+    name: 'Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Fisheries'
+  },
+  {
+    id: 'bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-limnology-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-fisheries-and-marine-sciences-and-technology',
+    name: 'Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Limnology'
+  },
+  {
+    id: 'bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-oceanography-and-marine-geology-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-fisheries-and-marine-sciences-and-technology',
+    name: 'Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Oceanography and Marine Geology'
+  },
+  {
+    id: 'bachelor-of-arts-general-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special)'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-archaeology-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Archaeology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-buddhist-culture-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Buddhist Culture'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-buddhist-philosophy-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Buddhist Philosophy'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-economicss-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Economicss'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-geography-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Geography'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-history-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in History'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-pali-and-buddhist-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Pali and Buddhist'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-political-science-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Political Science'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sinhala-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Sinhala'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-social-statistics-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Social Statistics'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sociology-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts (Special) in Sociology'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-accounting-and-finance',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Accounting and Finance'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-entrepreneurship',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Entrepreneurship'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-human-resource-management-2',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Human Resource Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-marketing-management-1',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-management-and-finance',
+    name: 'Bachelor of Business Administration (Special) in Marketing Management'
+  },
+  {
+    id: 'bachelor-of-science-in-medical-laboratory-sciences-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Medical Laboratory Sciences'
+  },
+  {
+    id: 'bachelor-of-science-in-nursing-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Nursing'
+  },
+  {
+    id: 'bachelor-of-science-in-pharmacy-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-medicine',
+    name: 'Bachelor of Science in Pharmacy'
+  },
+  {
+    id: 'bachelor-of-computer-science-general',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Computer Science (General)'
+  },
+  {
+    id: 'bachelor-of-computer-science-special',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Computer Science (Special)'
+  },
+  {
+    id: 'bachelor-of-science-general-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-botany-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Botany'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemistry-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Chemistry'
+  },
+  {
+    id: 'bachelor-of-science-special-in-mathematics-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Mathematics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-physics-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-zoology-ruhuna',
+    universityId: 'university-of-ruhuna',
+    facultyId: 'faculty-of-science',
+    name: 'Bachelor of Science (Special) in Zoology'
+  },
+  {
+    id: 'bachelor-of-education-in-natural-sciences',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-education',
+    name: 'Bachelor of Education in (Natural Sciences)'
+  },
+  {
+    id: 'bachelor-of-industrial-studies-bis',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-engineering-technology',
+    name: 'Bachelor of Industrial Studies (BIS)'
+  },
+  {
+    id: 'bachelor-of-software-engineering',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-engineering-technology',
+    name: 'Bachelor of Software Engineering'
+  },
+  {
+    id: 'bachelor-of-technology-engineering-btecheng',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-engineering-technology',
+    name: 'Bachelor of Technology (Engineering) (BTech.Eng.)'
+  },
+  {
+    id: 'ba-in-english-language-teaching-ba-elt',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'BA in English Language Teaching (BA/ELT)'
+  },
+  {
+    id: 'bachelor-of-arts-in-social-sciences-ba-lanka',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Arts in Social Sciences (BA)'
+  },
+  {
+    id: 'bachelor-of-laws-llb-lanka',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Laws (LL.B)'
+  },
+  {
+    id: 'bachelor-of-management-studies-bms',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-humanities-and-social-sciences',
+    name: 'Bachelor of Management Studies (BMS)'
+  },
+  {
+    id: 'degree-of-bachelor-of-the-science-of-agriculture',
+    universityId: 'the-open-university-of-sri-lanka',
+    facultyId: 'faculty-of-natural-sciences',
+    name: 'Degree of Bachelor of the Science of Agriculture'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-general-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts (General)'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-drama-and-theatre-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Drama and Theatre'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-economicss-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Economicss'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-education-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Education'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-fine-arts-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Fine Arts'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-geography-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Geography'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-hindu-culture-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Hindu Culture'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-philosophy-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Philosophy'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-political-science-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Political Science'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-sociology-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Sociology'
+  },
+  {
+    id: 'degree-of-bachelor-of-arts-special-in-tamill-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Degree of Bachelor of Arts Special in Tamill'
+  },
+  {
+    id: 'degree-of-bachelor-of-business-administration-specialization-in-human-resource-management',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-commerce-and-management',
+    name: 'Degree of Bachelor of Business Administration Specialization in Human Resource Management'
+  },
+  {
+    id: 'degree-of-bachelor-of-business-administration-specialization-in-marketing-management',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-commerce-and-management',
+    name: 'Degree of Bachelor of Business Administration Specialization in Marketing Management'
+  },
+  {
+    id: 'degree-of-bachelor-of-commerce-specialization-in-accounting-and-finance-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-commerce-and-management',
+    name: 'Degree of Bachelor of Commerce Specialization in Accounting and Finance'
+  },
+  {
+    id: 'degree-of-bachelor-of-commerce-specialization-in-enterprise-development-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-commerce-and-management',
+    name: 'Degree of Bachelor of Commerce Specialization in Enterprise Development'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-general-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-science',
+    name: 'Degree of Bachelor of Science (General)'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-special-in-botany-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-science',
+    name: 'Degree of Bachelor of Science Special in Botany'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-special-in-chemistry-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-science',
+    name: 'Degree of Bachelor of Science Special in Chemistry'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-special-in-computer-science-and-mathematics-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-science',
+    name: 'Degree of Bachelor of Science Special in Computer Science and Mathematics'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-special-in-physics-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-science',
+    name: 'Degree of Bachelor of Science Special in Physics'
+  },
+  {
+    id: 'degree-of-bachelor-of-science-special-in-zoology-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-science',
+    name: 'Degree of Bachelor of Science Special in Zoology'
+  },
+  {
+    id: 'bachelor-of-science-in-nursing-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-health-care-sciences',
+    name: 'Bachelor of Science in Nursing'
+  },
+  {
+    id: 'mbbs-lanka',
+    universityId: 'eastern-university-sri-lanka',
+    facultyId: 'faculty-of-health-care-sciences',
+    name: 'MBBS'
+  },
+  {
+    id: 'bachelor-of-science-general-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computer-science-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Computer Science'
+  },
+  {
+    id: 'bachelor-of-science-special-in-applied-statistics-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Applied Statistics'
+  },
+  {
+    id: 'bachelor-of-business-administration-bba-special',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'Bachelor of Business Administration (BBA Special)'
+  },
+  {
+    id: 'bachelor-of-commerce-bcom-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'Bachelor of Commerce (B.Com Special)'
+  },
+  {
+    id: 'bachelor-of-science-management-information-technology-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'Bachelor of Science (Management Information Technology)'
+  },
+  {
+    id: 'bba-bcom-accounting-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'BBA / B.Com (Accounting Special)'
+  },
+  {
+    id: 'bba-bcom-finance-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'BBA / B.Com (Finance Special)'
+  },
+  {
+    id: 'bba-bcom-human-resource-management-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'BBA / B.Com (Human Resource Management Special)'
+  },
+  {
+    id: 'bba-bcom-information-system-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'BBA / B.Com (Information System Special)'
+  },
+  {
+    id: 'bba-bcom-marketing-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-and-commerce',
+    name: 'BBA / B.Com (Marketing Special)'
+  },
+  {
+    id: 'bachelor-of-arts-general-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special)'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-economicss-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special) in Economicss'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-hindu-civilization-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special) in Hindu Civilization'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-philosophy-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special) in Philosophy'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-political-science-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special) in Political Science'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sociology-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special) in Sociology'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-tamil-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-arts-and-culture',
+    name: 'Bachelor of Arts (Special) in Tamil'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-arabic-foreign-language-and-translation-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (Special) in Arabic Foreign Language and Translation'
+  },
+  {
+    id: 'bachelor-of-arts-general-in-arabic-language-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (General) in Arabic Language'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-arabic-linguistic-and-translation-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (Special) in Arabic Linguistic and Translation'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-arabic-literature-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (Special) in Arabic Literature'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-islamic-banking-and-finance-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (Special) in Islamic Banking and Finance'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-islamic-law-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (Special) in Islamic Law'
+  },
+  {
+    id: 'bachelor-of-arts-general-in-islamic-studies-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (General) in Islamic Studies'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-islamic-thought-and-civilization-lanka',
+    universityId: 'south-eastern-university-of-sri-lanka',
+    facultyId: 'faculty-of-islamic-studies-and-arabic-language',
+    name: 'Bachelor of Arts (Special) in Islamic Thought and Civilization'
+  },
+  {
+    id: 'bachelor-of-science-in-agriculture-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-agriculture',
+    name: 'Bachelor of Science in Agriculture'
+  },
+  {
+    id: 'bachelor-of-information-and-communication-technologygeneral',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Information and Communication Technology(General)'
+  },
+  {
+    id: 'bachelor-of-science-general-lanka-1',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-applied-biology-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Applied Biology'
+  },
+  {
+    id: 'bachelor-of-science-general-in-applied-sciences-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (General) in Applied Sciences'
+  },
+  {
+    id: 'bachelor-of-science-special-in-applied-sciences-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Applied Sciences'
+  },
+  {
+    id: 'bachelor-of-science-in-applied-sciences-physical-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in Applied Sciences (Physical)'
+  },
+  {
+    id: 'bachelor-of-science-special-in-biology-and-physics-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Biology and Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-health-promotion-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Health Promotion'
+  },
+  {
+    id: 'bachelor-of-science-in-industrial-mathematics-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in Industrial Mathematics'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-accountancy-and-finance',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Business Administration (Special) in Accountancy and Finance'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-business-information-technology',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Business Administration (Special) in Business Information Technology'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-business-management',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Business Administration (Special) in Business Management'
+  },
+  {
+    id: 'bachelor-of-business-administration-special-in-tourism-and-hospitality-management',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Business Administration (Special) in Tourism and Hospitality Management'
+  },
+  {
+    id: 'mbbs-lanka-1',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-medicine-and-allied-sciences',
+    name: 'MBBS'
+  },
+  {
+    id: 'bachelor-of-arts-general-lanka-1',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (General)'
+  },
+  {
+    id: 'bachelor-of-arts-special-lanka-1',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (Special)'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-archaeology-and-heritage-management-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (Special) in Archaeology and Heritage Management'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-economics-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (Special) in Economics'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-environmental-management-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (Special) in Environmental Management'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-history-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (Special) in History'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-sinhala-lanka',
+    universityId: 'rajarata-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-humanities',
+    name: 'Bachelor of Arts (Special) in Sinhala'
+  },
+  {
+    id: 'bachelor-of-science-plantation-management-external-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-agriculture-and-plantation-management',
+    name: 'Bachelor of Science (Plantation Management) (External)'
+  },
+  {
+    id: 'bachelor-of-science-of-agriculture-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-agriculture-and-plantation-management',
+    name: 'Bachelor of Science of Agriculture'
+  },
+  {
+    id: 'bachelor-of-science-general-lanka-2',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (General)'
+  },
+  {
+    id: 'bachelor-of-science-in-joint-major-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in (Joint Major)'
+  },
+  {
+    id: 'bsc-special-degree-in-mathematics-with-statistics-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'BSc (Special) Degree in mathematics with statistics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-accountancy-and-business-finance-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-business-studies-and-finance',
+    name: 'Bachelor of Science (Special) in Accountancy and Business Finance'
+  },
+  {
+    id: 'bachelor-of-science-special-in-banking-and-finance-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-business-studies-and-finance',
+    name: 'Bachelor of Science (Special) in Banking and Finance'
+  },
+  {
+    id: 'bachelor-of-science-special-in-business-management-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-business-studies-and-finance',
+    name: 'Bachelor of Science (Special) in Business Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-insurance-and-valuation-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-business-studies-and-finance',
+    name: 'Bachelor of Science (Special) in Insurance and Valuation'
+  },
+  {
+    id: 'bachelor-of-science-special-in-food-production-and-technology-management-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-livestock-fisheries-and-nutrition',
+    name: 'Bachelor of Science (Special) in Food Production and Technology Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-food-science-and-nutrition-lanka',
+    universityId: 'wayamba-university-of-sri-lanka',
+    facultyId: 'faculty-of-livestock-fisheries-and-nutrition',
+    name: 'Bachelor of Science (Special) in Food Science and Nutrition'
+  },
+  {
+    id: 'bachelor-of-science-in-agriculture-sciences-and-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-agricultural-sciences',
+    name: 'Bachelor of Science in Agriculture Sciences and Management'
+  },
+  {
+    id: 'bachelor-of-science-in-agriculture-sciences-and-management-lanka-1',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in Agriculture Sciences and Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-applied-physics-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Applied Physics'
+  },
+  {
+    id: 'bachelor-of-science-special-in-chemical-technology-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Chemical Technology'
+  },
+  {
+    id: 'bachelor-of-science-special-in-computer-science-and-technology-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Computer Science and Technology'
+  },
+  {
+    id: 'bachelor-of-science-in-computing-and-information-systems-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in Computing and Information Systems'
+  },
+  {
+    id: 'bachelor-of-science-special-in-environmental-sciences-and-natural-resources-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Environmental Sciences and Natural Resources Management'
+  },
+  {
+    id: 'bachelor-of-science-special-in-food-science-and-technology-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Special) in Food Science and Technology'
+  },
+  {
+    id: 'bachelor-of-science-in-physical-education-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in Physical Education'
+  },
+  {
+    id: 'bachelor-of-science-in-sports-sciences-and-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science in Sports Sciences and Management'
+  },
+  {
+    id: 'bachelor-of-science-applied-science-in-environmental-science-and-natural-resource-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Applied Science) in Environmental Science and Natural Resource Management'
+  },
+  {
+    id: 'bachelor-of-science-applied-sciences-physical-sciences-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Science (Applied Sciences) Physical Sciences'
+  },
+  {
+    id: 'bachelor-of-science-surveying-sciences-cartography-and-gis-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-geomatics',
+    name: 'Bachelor of Science Surveying Sciences (Cartography and GIS)'
+  },
+  {
+    id: 'bachelor-of-science-surveying-sciences-photogrammetry-and-remote-sensing-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-geomatics',
+    name: 'Bachelor of Science Surveying Sciences (Photogrammetry and Remote Sensing)'
+  },
+  {
+    id: 'bachelor-of-science-surveying-sciences-surveying-and-geodesy-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-geomatics',
+    name: 'Bachelor of Science Surveying Sciences (Surveying and Geodesy)'
+  },
+  {
+    id: 'bachelor-of-science-special-business-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Science (Special) Business Management'
+  },
+  {
+    id: 'bachelor-of-science-special-eco-business-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Science (Special) Eco Business Management'
+  },
+  {
+    id: 'bachelor-of-science-special-financial-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Science (Special) Financial Management'
+  },
+  {
+    id: 'bachelor-of-science-special-marketing-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Science (Special) Marketing Management'
+  },
+  {
+    id: 'bachelor-of-science-special-tourism-management-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management-studies',
+    name: 'Bachelor of Science (Special) Tourism Management'
+  },
+  {
+    id: 'bachelor-of-arts-special-economicss-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts (Special) Economicss'
+  },
+  {
+    id: 'bachelor-of-arts-special-geography-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts (Special) Geography'
+  },
+  {
+    id: 'bachelor-of-arts-special-political-science-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts (Special) Political Science'
+  },
+  {
+    id: 'bachelor-of-arts-special-sociology-and-anthropology-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts (Special) Sociology and Anthropology'
+  },
+  {
+    id: 'bachelor-of-arts-special-statistics-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts (Special) Statistics'
+  },
+  {
+    id: 'bachelor-of-arts-special-languages-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts Special (Languages)'
+  },
+  {
+    id: 'bachelor-of-arts-special-social-sciences-lanka',
+    universityId: 'sabaragamuwa-university-of-sri-lanka',
+    facultyId: 'faculty-of-social-sciences-and-languages',
+    name: 'Bachelor of Arts Special (Social Sciences)'
+  },
+  {
+    id: 'bachelor-of-animal-science',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-science-and-technology',
+    name: 'Bachelor of Animal Science'
+  },
+  {
+    id: 'bachelor-of-science-in-aquatic-resources-technology-lanka',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-science-and-technology',
+    name: 'Bachelor of Science in Aquatic Resources Technology'
+  },
+  {
+    id: 'bachelor-of-science-in-computer-science-and-technology-lanka',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-science-and-technology',
+    name: 'Bachelor of Science in Computer Science and Technology'
+  },
+  {
+    id: 'bachelor-of-science-in-export-agriculture-lanka',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-science-and-technology',
+    name: 'Bachelor of Science in Export Agriculture'
+  },
+  {
+    id: 'bachelor-of-science-in-industrial-informationtechnology-lanka',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-science-and-technology',
+    name: 'Bachelor of Science in Industrial InformationTechnology'
+  },
+  {
+    id: 'bachelor-of-science-in-palm-and-latex-technology-and-value-addition-lanka',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-science-and-technology',
+    name: 'Bachelor of Science in Palm and Latex Technology and Value Addition'
+  },
+  {
+    id: 'bachelor-of-business-management-in-entrepreneurship-and-management',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management',
+    name: 'Bachelor of Business Management in Entrepreneurship and Management'
+  },
+  {
+    id: 'bachelor-of-business-management-in-hospitality-tourism-and-events-management',
+    universityId: 'uva-wellassa-university-of-sri-lanka',
+    facultyId: 'faculty-of-management',
+    name: 'Bachelor of Business Management in Hospitality Tourism and Events Management'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-in-kandyan-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) in Kandyan Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-in-kandyan-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) in Kandyan Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-up-country-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Up Country Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-acting',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Acting'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-kathak',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Kathak'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-low-country-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Low Country Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-low-country-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Low Country Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-sabaragamuwa-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Sabaragamuwa Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-sabaragamuwa-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Sabaragamuwa Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-script-writing-and-directing',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Script Writing and Directing'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-up-country-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Up Country Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-up-country-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Up Country Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-special-degree-in-video-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts (Special) Degree in Video Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-joint-special-degree-in-bharatha-nattyam',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint (Special) Degree in Bharatha Nattyam'
+  },
+  {
+    id: 'bachelor-of-performing-arts-joint-special-degree-in-kathak',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint (Special) Degree in Kathak'
+  },
+  {
+    id: 'bachelor-of-performing-arts-joint-special-degree-in-low-country-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint (Special) Degree in Low Country Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-joint-special-degree-in-sabaragamuwa-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint (Special) Degree in Sabaragamuwa Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-joint-special-degree-in-up-country-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint (Special) Degree in Up Country Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-acting',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Acting'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-history-and-theory-of-dance-and-drama',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in History and Theory of Dance and Drama'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-low-country-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Low Country Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-oriental-ballet-and-modern-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Oriental Ballet and Modern Dance'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-sabaragamuwa-drumming',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Sabaragamuwa Drumming'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-script-writing-and-directing',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Script Writing and Directing'
+  },
+  {
+    id: 'bachelor-of-performing-arts-jointspecial-degree-in-video-dance',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-dance-and-drama',
+    name: 'Bachelor of Performing Arts joint(Special) Degree in Video Dance'
+  },
+  {
+    id: 'bachelor-of-fine-arts-special-in-applied-music',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-music',
+    name: 'Bachelor of Fine Arts (Special) in Applied Music'
+  },
+  {
+    id: 'bachelor-of-fine-arts-special-in-comparative-music',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-music',
+    name: 'Bachelor of Fine Arts (Special) in Comparative Music'
+  },
+  {
+    id: 'bachelor-of-fine-arts-special-in-ethno-musicology',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-music',
+    name: 'Bachelor of Fine Arts (Special) in Ethno-Musicology'
+  },
+  {
+    id: 'bachelor-of-fine-arts-special-in-north-indian-music',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-music',
+    name: 'Bachelor of Fine Arts (Special) in North Indian Music'
+  },
+  {
+    id: 'bachelor-of-fine-arts-special-in-south-indian-music',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-music',
+    name: 'Bachelor of Fine Arts (Special) in South Indian Music'
+  },
+  {
+    id: 'bachelor-of-fine-arts-special-in-western-music',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-music',
+    name: 'Bachelor of Fine Arts (Special) in Western Music'
+  },
+  {
+    id: 'bachelor-of-visual-arts-ceramic',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Ceramic'
+  },
+  {
+    id: 'bachelor-of-visual-arts-history-and-art-theories',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts History and Art Theories'
+  },
+  {
+    id: 'bachelor-of-visual-arts-multidisciplinary-design',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Multidisciplinary Design'
+  },
+  {
+    id: 'bachelor-of-visual-arts-multimedia-art',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Multimedia Art'
+  },
+  {
+    id: 'bachelor-of-visual-arts-painting',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Painting'
+  },
+  {
+    id: 'bachelor-of-visual-arts-planning',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Planning'
+  },
+  {
+    id: 'bachelor-of-visual-arts-printmaking',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Printmaking'
+  },
+  {
+    id: 'bachelor-of-visual-arts-sculpture',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Sculpture'
+  },
+  {
+    id: 'bachelor-of-visual-arts-textile-and-wearable-arts',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Textile and Wearable Arts'
+  },
+  {
+    id: 'bachelor-of-visual-arts-visual-communication-design',
+    universityId: 'university-of-the-visual-and-performing-arts',
+    facultyId: 'faculty-of-visual-arts',
+    name: 'Bachelor of Visual Arts Visual Communication Design'
+  },
+  {
+    id: 'bsc-in-applied-mathematics-and-computing',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. in Applied Mathematics and Computing'
+  },
+  {
+    id: 'bsc-special-in-computer-science-vavuniya',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. (Special) in Computer Science'
+  },
+  {
+    id: 'bsc-in-environmental-science',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. in Environmental Science'
+  },
+  {
+    id: 'bsc-special-in-information-communication-technology-vavuniya',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. (Special) in Information Communication Technology'
+  },
+  {
+    id: 'bsc-applied-mathematics-and-computing',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. (Applied Mathematics and Computing)'
+  },
+  {
+    id: 'bsc-environmental-science',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. (Environmental Science)'
+  },
+  {
+    id: 'bsc-special-in-applied-mathematics-and-computing-vavuniya',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. (Special in Applied Mathematics and Computing)'
+  },
+  {
+    id: 'bsc-special-in-environmental-science-vavuniya',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'B.Sc. (Special in Environmental Science)'
+  },
+  {
+    id: 'bachelor-of-information-and-communication-technology',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Information and Communication Technology'
+  },
+  {
+    id: 'bachelor-of-business-management-general',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-business-studies',
+    name: 'Bachelor of Business Management (General)'
+  },
+  {
+    id: 'bachelor-of-business-management-special-in-accountancy-and-finance',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-business-studies',
+    name: 'Bachelor of Business Management (Special) in Accountancy and Finance'
+  },
+  {
+    id: 'bachelor-of-business-management-special-in-business-economicss',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-business-studies',
+    name: 'Bachelor of Business Management (Special) in Business Economicss'
+  },
+  {
+    id: 'bachelor-of-business-management-special-in-marketing-management',
+    universityId: 'vavuniya-campus',
+    facultyId: 'faculty-of-business-studies',
+    name: 'Bachelor of Business Management (Special) in Marketing Management'
+  },
+  {
+    id: 'bachelor-of-arts-special-in-communication-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Arts (Special) in Communication'
+  },
+  {
+    id: 'bachelor-of-arts-majoring-in-communication-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Arts (Majoring) in Communication'
+  },
+  {
+    id: 'bachelor-of-arts-majoring-in-english-language-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Arts (Majoring) in English Language'
+  },
+  {
+    id: 'bachelor-of-arts-majoring-in-linguistics-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Arts (Majoring) in Linguistics'
+  },
+  {
+    id: 'bachelor-of-science-majoring-in-accounting-and-financial-management-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Science (Majoring) in Accounting and Financial Management'
+  },
+  {
+    id: 'bachelor-of-science-majoring-in-human-resource-management-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Science (Majoring) in Human Resource Management'
+  },
+  {
+    id: 'bachelor-of-science-majoring-in-information-management-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Science (Majoring) in Information Management'
+  },
+  {
+    id: 'bachelor-of-science-majoring-in-management-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Science (Majoring) in Management'
+  },
+  {
+    id: 'bachelor-of-science-majoring-in-marketing-trincomalee',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-communication-and-business-studies',
+    name: 'Bachelor of Science (Majoring) in Marketing'
+  },
+  {
+    id: 'bachelor-of-computer-science-special-1',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Computer Science (Special)'
+  },
+  {
+    id: 'bachelor-of-computer-science-general-1',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Computer Science (General)'
+  },
+  {
+    id: 'bachelor-of-information-technology-special',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Information Technology (Special)'
+  },
+  {
+    id: 'bachelor-of-information-technology-general',
+    universityId: 'trincomalee-campus',
+    facultyId: 'faculty-of-applied-sciences',
+    name: 'Bachelor of Information Technology (General)'
+  }
+];
+
+export default degreesData;

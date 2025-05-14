@@ -1,5 +1,5 @@
-import { legacyData } from '../../data'
-import { getUniversityNames, getFacultyNames, getDegreeNames } from '../services';
+import { legacyData } from '../src/data'
+import { getUniversityNames, getFacultyNames, getDegreeNames } from '../src/services';
 
 /**
  * Legacy API implementation for backward compatibility with v1.x

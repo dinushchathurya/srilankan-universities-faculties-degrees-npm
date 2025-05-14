@@ -21,7 +21,6 @@
 <ol>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#typescript-support">TypeScript Support</a></li>
     <li><a href="#api-reference">API Reference</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#author">Author</a></li>
@@ -115,34 +114,6 @@ import { getFacultiesByUniversity, getFaculty } from "@dinush/srilankan-universi
 
 // Import only the degrees module
 import { getDegreesByFaculty } from "@dinush/srilankan-universities-faculties-degrees/degrees";
-```
-
-## TypeScript Support
-
-This package includes full TypeScript type definitions for all functions and interfaces:
-
-```typescript
-// University interface
-interface University {
-  id: string;
-  name: string;
-  code: string;
-}
-
-// Faculty interface 
-interface Faculty {
-  id: string;
-  universityId: string;
-  name: string;
-}
-
-// Degree interface
-interface Degree {
-  id: string;
-  universityId: string;
-  facultyId: string;
-  name: string;
-}
 ```
 
 ## API Reference

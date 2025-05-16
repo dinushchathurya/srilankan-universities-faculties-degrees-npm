@@ -8,61 +8,61 @@ export const degreesData: Degree[] = [
   {
     id: "bachelor-of-arts-general-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (General)",
   },
   {
     id: "bachelor-of-arts-special-in-demography-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in Demography",
   },
   {
     id: "bachelor-of-arts-special-in-economics-colombo",
     universityId: "university-of-colombo",
     facultyId: "faculty-of-arts",
-    name: "Bachelor of Arts (Special) in Economics", 
+    name: "Bachelor of Arts (Special) in Economics",
   },
   {
     id: "bachelor-of-arts-special-in-english-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in English",
   },
   {
     id: "bachelor-of-arts-special-in-geography-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in Geography",
   },
   {
     id: "bachelor-of-arts-special-in-history-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in History",
   },
   {
     id: "bachelor-of-arts-special-in-international-relations-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in International Relations",
   },
   {
     id: "bachelor-of-arts-special-in-political-science-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in Political Science",
   },
   {
     id: "bachelor-of-arts-special-in-sinhala-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in Sinhala",
   },
   {
     id: "bachelor-of-arts-special-in-sociology-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-arts", 
+    facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (Special) in Sociology",
   },
   {
@@ -87,7 +87,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-business-administration-special-in-business-economics",
     universityId: "university-of-colombo",
     facultyId: "faculty-of-management-and-finance",
-    name: "Bachelor of Business Administration (Special) in Business Economics", 
+    name: "Bachelor of Business Administration (Special) in Business Economics",
   },
   {
     id: "bachelor-of-business-administration-special-in-finance",
@@ -250,7 +250,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-arts-special-in-economics-peradeniya",
     universityId: "university-of-peradeniya",
     facultyId: "faculty-of-arts",
-    name: "Bachelor of Arts (Special) in Economics", 
+    name: "Bachelor of Arts (Special) in Economics",
   },
   {
     id: "bachelor-of-arts-special-in-english-peradeniya",
@@ -291,7 +291,7 @@ export const degreesData: Degree[] = [
   {
     id: "bachelor-of-science-general-peradeniya",
     universityId: "university-of-peradeniya",
-    facultyId: "faculty-of-science", 
+    facultyId: "faculty-of-science",
     name: "Bachelor of Science (General)",
   },
   {
@@ -303,26 +303,26 @@ export const degreesData: Degree[] = [
   {
     id: "bachelor-of-science-special-in-biology-peradeniya",
     universityId: "university-of-peradeniya",
-    facultyId: "faculty-of-science", 
+    facultyId: "faculty-of-science",
     name: "Bachelor of Science (Special) in Biology",
   },
   {
     id: "bachelor-of-science-special-in-botany-peradeniya",
     universityId: "university-of-peradeniya",
-    facultyId: "faculty-of-science", 
+    facultyId: "faculty-of-science",
     name: "Bachelor of Science (Special) in Botany",
   },
   {
     id: "bachelor-of-science-special-in-chemistry-peradeniya",
     universityId: "university-of-peradeniya",
-    facultyId: "faculty-of-science", 
+    facultyId: "faculty-of-science",
     name: "Bachelor of Science (Special) in Chemistry",
   },
   {
-    id: 'bachelor-of-veterinary-science',
-    universityId: 'university-of-peradeniya',
-    facultyId: 'faculty-of-veterinary-medicine-and-animal-science', 
-    name: 'Bachelor of Veterinary Science'
+    id: "bachelor-of-veterinary-science",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-veterinary-medicine-and-animal-science",
+    name: "Bachelor of Veterinary Science",
   },
   // ======== UNIVERSITY OF SRI JAYEWARDENEPURA ========
   {
@@ -412,67 +412,67 @@ export const degreesData: Degree[] = [
   {
     id: "bachelor-of-arts-general-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (General)",
   },
   {
     id: "bachelor-of-arts-special-in-anthropology-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Anthropology",
   },
   {
     id: "bachelor-of-arts-special-in-archaeology-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Archaeology",
   },
   {
     id: "bachelor-of-arts-special-in-buddhist-civilization-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Buddhist Civilization",
   },
   {
     id: "bachelor-of-arts-special-in-buddhist-philosophy-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Buddhist Philosophy",
   },
   {
     id: "bachelor-of-arts-special-in-criminology-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Criminology",
   },
   {
     id: "bachelor-of-arts-special-in-cultural-and-aesthetic-studies-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Cultural and Aesthetic Studies",
   },
   {
     id: "bachelor-of-arts-special-in-economics-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Economics",
   },
   {
     id: "bachelor-of-arts-special-in-english-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in English",
   },
   {
     id: "bachelor-of-arts-special-in-french-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in French",
   },
   {
     id: "bachelor-of-arts-special-in-geography-sjp",
     universityId: "university-of-sri-jayewardenepura",
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts (Special) in Geography",
   },
   {
@@ -497,7 +497,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-science-special-in-business-administration-business-economics-sjp",
     universityId: "university-of-sri-jayewardenepura",
     facultyId: "faculty-of-management-studies-and-commerce",
-    name: "Bachelor of Science (Special) in Business Administration (Business Economics)", 
+    name: "Bachelor of Science (Special) in Business Administration (Business Economics)",
   },
   {
     id: "bachelor-of-science-in-business-administration-hrm-special-sjp",
@@ -534,18 +534,18 @@ export const degreesData: Degree[] = [
     universityId: "university-of-sri-jayewardenepura",
     facultyId: "faculty-of-medical-sciences",
     name: "MBBS",
-  }, 
+  },
   // ======== UNIVERSITY OF KELANIYA ========
   {
     id: "bachelor-of-business-management-accountancy-special-degree-programme",
     universityId: "university-of-kelaniya",
-    facultyId: "faculty-of-commerce-and-management", 
+    facultyId: "faculty-of-commerce-and-management",
     name: "Bachelor of Business Management (Accountancy) Special Degree Programme",
   },
   {
     id: "bachelor-of-business-management-finance-special-degree-programme",
     universityId: "university-of-kelaniya",
-    facultyId: "faculty-of-commerce-and-management", 
+    facultyId: "faculty-of-commerce-and-management",
     name: "Bachelor of Business Management (Finance) Special Degree Programme",
   },
   {
@@ -557,13 +557,13 @@ export const degreesData: Degree[] = [
   {
     id: "bachelor-of-commerce-special-degree-programme-kelaniya",
     universityId: "university-of-kelaniya",
-    facultyId: "faculty-of-commerce-and-management", 
+    facultyId: "faculty-of-commerce-and-management",
     name: "Bachelor of Commerce (Special) Degree Programme",
   },
   {
     id: "bachelor-of-commerce-special-degree-in-entrepreneurship-kelaniya",
     universityId: "university-of-kelaniya",
-    facultyId: "faculty-of-commerce-and-management", 
+    facultyId: "faculty-of-commerce-and-management",
     name: "Bachelor of Commerce Special Degree in Entrepreneurship",
   },
   {
@@ -975,7 +975,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-arts-special-in-economics-ruhuna",
     universityId: "university-of-ruhuna",
     facultyId: "faculty-of-humanities-and-social-sciences",
-    name: "Bachelor of Arts (Special) in Economics", 
+    name: "Bachelor of Arts (Special) in Economics",
   },
   {
     id: "bachelor-of-arts-special-in-geography-ruhuna",
@@ -1111,65 +1111,65 @@ export const degreesData: Degree[] = [
   },
   // ======== THE OPEN UNIVERSITY OF SRI LANKA ========
   {
-    id: 'bachelor-of-education-in-natural-sciences',
-    universityId: 'open-university-of-sri-lanka', 
-    facultyId: 'faculty-of-education',
-    name: 'Bachelor of Education in (Natural Sciences)'
+    id: "bachelor-of-education-in-natural-sciences",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-education",
+    name: "Bachelor of Education in (Natural Sciences)",
   },
   {
     id: "bachelor-of-industrial-studies-bis",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-engineering-technology",
     name: "Bachelor of Industrial Studies (BIS)",
   },
   {
     id: "bachelor-of-software-engineering",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-engineering-technology",
     name: "Bachelor of Software Engineering",
   },
   {
     id: "bachelor-of-technology-engineering-btecheng",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-engineering-technology",
     name: "Bachelor of Technology (Engineering) (BTech.Eng.)",
   },
   {
     id: "ba-in-english-language-teaching-ba-elt",
-    universityId: "open-university-of-sri-lanka", 
-    facultyId: "faculty-of-humanities-and-social-sciences", 
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-humanities-and-social-sciences",
     name: "BA in English Language Teaching (BA/ELT)",
   },
   {
     id: "bachelor-of-arts-in-social-sciences-ba-lanka",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Arts in Social Sciences (BA)",
   },
   {
     id: "bachelor-of-laws-llb-lanka",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Laws (LL.B)",
   },
   {
     id: "bachelor-of-management-studies-bms",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-humanities-and-social-sciences",
     name: "Bachelor of Management Studies (BMS)",
   },
   {
     id: "degree-of-bachelor-of-the-science-of-agriculture",
-    universityId: "open-university-of-sri-lanka", 
+    universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-natural-sciences",
     name: "Degree of Bachelor of the Science of Agriculture",
   },
-  
+
   {
-    id: 'bachelor-of-science-in-agriculture-lanka',
-    universityId: 'rajarata-university', 
-    facultyId: 'faculty-of-agriculture-rajarata',
-    name: 'Bachelor of Science in Agriculture'
+    id: "bachelor-of-science-in-agriculture-lanka",
+    universityId: "rajarata-university",
+    facultyId: "faculty-of-agriculture-rajarata",
+    name: "Bachelor of Science in Agriculture",
   },
   {
     id: "bachelor-of-information-and-communication-technologygeneral",
@@ -1179,10 +1179,10 @@ export const degreesData: Degree[] = [
   },
   // ======== EASTERN UNIVERSITY ========
   {
-    id: 'degree-of-bachelor-of-arts-general-lanka',
-    universityId: 'eastern-university', 
-    facultyId: 'faculty-of-arts-and-culture',
-    name: 'Degree of Bachelor of Arts (General)'
+    id: "degree-of-bachelor-of-arts-general-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts (General)",
   },
   {
     id: "degree-of-bachelor-of-arts-special-in-drama-and-theatre-lanka",
@@ -1194,7 +1194,7 @@ export const degreesData: Degree[] = [
     id: "degree-of-bachelor-of-arts-special-in-economics-lanka",
     universityId: "eastern-university",
     facultyId: "faculty-of-arts-and-culture",
-    name: "Degree of Bachelor of Arts Special in Economics", 
+    name: "Degree of Bachelor of Arts Special in Economics",
   },
   {
     id: "degree-of-bachelor-of-arts-special-in-education-lanka",
@@ -1269,10 +1269,10 @@ export const degreesData: Degree[] = [
     name: "Degree of Bachelor of Commerce Specialization in Enterprise Development",
   },
   {
-    id: 'bachelor-of-science-general-lanka',
-    universityId: 'eastern-university', 
-    facultyId: 'faculty-of-science',
-    name: 'Bachelor of Science (General)'
+    id: "bachelor-of-science-general-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (General)",
   },
   {
     id: "degree-of-bachelor-of-science-special-in-botany-lanka",
@@ -1399,7 +1399,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-arts-special-in-economics-lanka",
     universityId: "south-eastern-university",
     facultyId: "faculty-of-arts-and-culture",
-    name: "Bachelor of Arts (Special) in Economics", 
+    name: "Bachelor of Arts (Special) in Economics",
   },
   {
     id: "bachelor-of-arts-special-in-hindu-civilization-lanka",
@@ -1481,10 +1481,10 @@ export const degreesData: Degree[] = [
   },
   // ======== RAJARATA UNIVERSITY ========
   {
-    id: 'bachelor-of-science-in-agriculture-lanka',
-    universityId: 'rajarata-university', 
-    facultyId: 'faculty-of-agriculture',
-    name: 'Bachelor of Science in Agriculture'
+    id: "bachelor-of-science-in-agriculture-lanka",
+    universityId: "rajarata-university",
+    facultyId: "faculty-of-agriculture",
+    name: "Bachelor of Science in Agriculture",
   },
   {
     id: "bachelor-of-information-and-communication-technologygeneral",
@@ -1592,7 +1592,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-arts-special-in-economics-lanka",
     universityId: "rajarata-university",
     facultyId: "faculty-of-social-sciences-and-humanities",
-    name: "Bachelor of Arts (Special) in Economics", 
+    name: "Bachelor of Arts (Special) in Economics",
   },
   {
     id: "bachelor-of-arts-special-in-environmental-management-lanka",
@@ -1614,15 +1614,15 @@ export const degreesData: Degree[] = [
   },
   // ======== WAYAMBA UNIVERSITY ========
   {
-    id: 'bachelor-of-science-plantation-management-external-lanka',
-    universityId: 'wayamba-university', 
-    facultyId: 'faculty-of-agriculture-and-plantation-management', 
-    name: 'Bachelor of Science (Plantation Management) (External)'
+    id: "bachelor-of-science-plantation-management-external-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-agriculture-and-plantation-management",
+    name: "Bachelor of Science (Plantation Management) (External)",
   },
   {
     id: "bachelor-of-science-of-agriculture-lanka",
     universityId: "wayamba-university",
-    facultyId: "faculty-of-agriculture-and-plantation-management", 
+    facultyId: "faculty-of-agriculture-and-plantation-management",
     name: "Bachelor of Science of Agriculture",
   },
   {
@@ -1681,10 +1681,10 @@ export const degreesData: Degree[] = [
   },
   // ======== SABARAGAMUWA UNIVERSITY ========
   {
-    id: 'bachelor-of-science-in-agriculture-sciences-and-management-lanka',
-    universityId: 'sabaragamuwa-university', 
-    facultyId: 'faculty-of-agricultural-sciences',
-    name: 'Bachelor of Science in Agriculture Sciences and Management'
+    id: "bachelor-of-science-in-agriculture-sciences-and-management-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-agricultural-sciences",
+    name: "Bachelor of Science in Agriculture Sciences and Management",
   },
   {
     id: "bachelor-of-science-special-in-applied-physics-lanka",
@@ -1798,7 +1798,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-arts-special-economics-lanka",
     universityId: "sabaragamuwa-university",
     facultyId: "faculty-of-social-sciences-and-languages",
-    name: "Bachelor of Arts (Special) Economics", 
+    name: "Bachelor of Arts (Special) Economics",
   },
   {
     id: "bachelor-of-arts-special-geography-lanka",
@@ -1838,10 +1838,10 @@ export const degreesData: Degree[] = [
   },
   // ======== UVA WELLASSA UNIVERSITY ========
   {
-    id: 'bachelor-of-animal-science',
-    universityId: 'uva-wellassa-university', 
-    facultyId: 'faculty-of-science-and-technology',
-    name: 'Bachelor of Animal Science'
+    id: "bachelor-of-animal-science",
+    universityId: "uva-wellassa-university",
+    facultyId: "faculty-of-science-and-technology",
+    name: "Bachelor of Animal Science",
   },
   {
     id: "bachelor-of-science-in-aquatic-resources-technology-lanka",
@@ -2131,7 +2131,7 @@ export const degreesData: Degree[] = [
     universityId: "visual-performing-arts-university",
     facultyId: "faculty-of-visual-arts",
     name: "Bachelor of Visual Arts Visual Communication Design",
-  }, 
+  },
   // ======== VAVUNIYA CAMPUS ========
   {
     id: "bsc-in-applied-mathematics-and-computing",
@@ -2203,7 +2203,7 @@ export const degreesData: Degree[] = [
     id: "bachelor-of-business-management-special-in-business-economics",
     universityId: "vavuniya-campus",
     facultyId: "faculty-of-business-studies",
-    name: "Bachelor of Business Management (Special) in Business Economics", 
+    name: "Bachelor of Business Management (Special) in Business Economics",
   },
   {
     id: "bachelor-of-business-management-special-in-marketing-management",
@@ -2289,7 +2289,7 @@ export const degreesData: Degree[] = [
     universityId: "trincomalee-campus",
     facultyId: "faculty-of-applied-sciences",
     name: "Bachelor of Information Technology (General)",
-  }
+  },
 ];
 
 export default degreesData;

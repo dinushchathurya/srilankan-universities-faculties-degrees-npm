@@ -321,7 +321,7 @@ export const degreesData: Degree[] = [
   {
     id: 'bachelor-of-veterinary-science',
     universityId: 'university-of-peradeniya',
-    facultyId: 'faculty-of-veterinary-medicine', 
+    facultyId: 'faculty-of-veterinary-medicine-and-animal-science', 
     name: 'Bachelor of Veterinary Science'
   },
   // ======== UNIVERSITY OF SRI JAYEWARDENEPURA ========

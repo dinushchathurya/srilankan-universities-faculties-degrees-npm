@@ -624,6 +624,48 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-veterinary-medicine-and-animal-science",
     name: "Bachelor of Veterinary Science",
   },
+  {
+    id: "bachelor-of-science-applied-sciences-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Applied Sciences)",
+  },
+  {
+    id: "bachelor-of-science-special-in-computer-science-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Computer Science",
+  },
+  {
+    id: "bachelor-of-science-special-in-geology-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Geology",
+  },
+  {
+    id: "bachelor-of-science-special-in-mathematics-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Mathematics",
+  },
+  {
+    id: "bachelor-of-science-special-in-statistics-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Statistics",
+  },
+  {
+    id: "bachelor-of-science-in-computation-and-management-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science in Computation and Management",
+  },
+  {
+    id: "bachelor-of-science-in-statistics-and-operations-research-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science in Statistics and Operations Research",
+  },
   // ======== UNIVERSITY OF SRI JAYEWARDENEPURA ========
   {
     id: "bachelor-of-applied-science-in-food-technology",

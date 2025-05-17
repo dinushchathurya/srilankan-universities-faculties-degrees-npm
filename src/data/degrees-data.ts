@@ -818,6 +818,42 @@ export const degreesData: Degree[] = [
     name: "Bachelor of Arts (Special) in Geography",
   },
   {
+    id: "bachelor-of-arts-special-in-hindi-sjp",
+    universityId: "university-of-sri-jayewardenepura",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts (Special) in Hindi",
+  },
+  {
+    id: "bachelor-of-arts-special-in-management-information-technology-sjp",
+    universityId: "university-of-sri-jayewardenepura",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts (Special) in Management Information Technology",
+  },
+  {
+    id: "bachelor-of-arts-special-in-mass-communication-sjp",
+    universityId: "university-of-sri-jayewardenepura",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts (Special) in Mass Communication",
+  },
+  {
+    id: "bachelor-of-arts-special-in-pali-sjp",
+    universityId: "university-of-sri-jayewardenepura",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts (Special) in Pali",
+  },
+  {
+    id: "bachelor-of-arts-special-in-philosophy-and-psychology-sjp",
+    universityId: "university-of-sri-jayewardenepura",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts (Special) in Philosophy and Psychology",
+  },
+  {
+    id: "bachelor-of-arts-special-in-sanskrit-sjp",
+    universityId: "university-of-sri-jayewardenepura",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts (Special) in Sanskrit",
+  },
+  {
     id: "bachelor-of-commerce-special-sjp",
     universityId: "university-of-sri-jayewardenepura",
     facultyId: "faculty-of-management-studies-and-commerce",

@@ -391,6 +391,12 @@ export const degreesData: Degree[] = [
     name: "Bachelor of Science in Food Science and Technology",
   },
   {
+    id: "bachelor-of-science-agriculture-peradeniya",
+    universityId: "university-of-peradeniya",
+    facultyId: "faculty-of-agriculture",
+    name: "Bachelor of Science (Agriculture)",
+  },
+  {
     id: "bachelor-of-pharmacy-bpharm-peradeniya",
     universityId: "university-of-peradeniya",
     facultyId: "faculty-of-allied-health-sciences",

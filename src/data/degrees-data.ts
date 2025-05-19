@@ -936,6 +936,61 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-medical-sciences",
     name: "MBBS",
   },
+  // ======== UNIVERSITY OF KELANIYA ========
+  {
+    id: "bachelor-of-business-management-accountancy-special-degree-programme",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-commerce-and-management",
+    name: "Bachelor of Business Management (Accountancy) Special Degree Programme",
+  },
+  {
+    id: "bachelor-of-business-management-finance-special-degree-programme",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-commerce-and-management",
+    name: "Bachelor of Business Management (Finance) Special Degree Programme",
+  },
+  {
+    id: "bachelor-of-business-management-human-resource-special-degree-programme",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-commerce-and-management",
+    name: "Bachelor of Business Management (Human Resource) Special Degree Programme",
+  },
+  {
+    id: "bachelor-of-commerce-special-degree-programme-kelaniya",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-commerce-and-management",
+    name: "Bachelor of Commerce (Special) Degree Programme",
+  },
+  {
+    id: "bachelor-of-commerce-special-degree-in-entrepreneurship-kelaniya",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-commerce-and-management",
+    name: "Bachelor of Commerce Special Degree in Entrepreneurship",
+  },
+  {
+    id: "bachelor-of-arts-general-kelaniya",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-humanities",
+    name: "Bachelor of Arts (General)",
+  },
+  {
+    id: "bachelor-of-arts-special-kelaniya",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-humanities",
+    name: "Bachelor of Arts (Special)",
+  },
+  {
+    id: "bachelor-of-science-in-speech-and-hearing-sciences-kelaniya",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-medicine",
+    name: "Bachelor of Science in Speech and Hearing Sciences",
+  },
+  {
+    id: "mbbs-kelaniya",
+    universityId: "university-of-kelaniya",
+    facultyId: "faculty-of-medicine",
+    name: "MBBS",
+  },
 ];
 
 export default degreesData;

@@ -1353,6 +1353,25 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-management-studies-and-commerce",
     name: "Bachelor of Commerce",
   },
+  // ======== UNIVERSITY OF RUHUNA ========
+  {
+    id: "bachelor-of-agribusiness-management",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-agriculture",
+    name: "Bachelor of Agribusiness Management",
+  },
+  {
+    id: "bachelor-of-green-technology",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-agriculture",
+    name: "Bachelor of Green Technology",
+  },
+  {
+    id: "bachelor-of-science-in-agricultural-resource-management-technology-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-agriculture",
+    name: "Bachelor of Science in Agricultural Resource Management Technology",
+  },
 ];
 
 export default degreesData;

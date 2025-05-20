@@ -1492,6 +1492,85 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-management-and-finance",
     name: "Bachelor of Business Administration (Special) in Marketing Management",
   },
+  {
+    id: "bachelor-of-computer-science-general",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Computer Science (General)",
+  },
+  {
+    id: "bachelor-of-computer-science-special",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Computer Science (Special)",
+  },
+  {
+    id: "bachelor-of-science-general-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (General)",
+  },
+  {
+    id: "bachelor-of-science-special-in-botany-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Botany",
+  },
+  {
+    id: "bachelor-of-science-special-in-chemistry-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Chemistry",
+  },
+  {
+    id: "bachelor-of-science-special-in-mathematics-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Mathematics",
+  },
+  {
+    id: "bachelor-of-science-special-in-physics-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Physics",
+  },
+  {
+    id: "bachelor-of-science-special-in-zoology-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-science",
+    name: "Bachelor of Science (Special) in Zoology",
+  },
+  // ======== THE OPEN UNIVERSITY OF SRI LANKA ========
+  {
+    id: "bachelor-of-education-in-natural-sciences",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-education",
+    name: "Bachelor of Education in (Natural Sciences)",
+  },
+  {
+    id: "bachelor-of-industrial-studies-bis",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-engineering-technology",
+    name: "Bachelor of Industrial Studies (BIS)",
+  },
+  {
+    id: "bachelor-of-software-engineering",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-engineering-technology",
+    name: "Bachelor of Software Engineering",
+  },
+  {
+    id: "bachelor-of-technology-engineering-btecheng",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-engineering-technology",
+    name: "Bachelor of Technology (Engineering) (BTech.Eng.)",
+  },
+  {
+    id: "ba-in-english-language-teaching-ba-elt",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "BA in English Language Teaching (BA/ELT)",
+  },
 ];
 
 export default degreesData;

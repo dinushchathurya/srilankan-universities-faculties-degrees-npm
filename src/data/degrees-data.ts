@@ -1372,6 +1372,48 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-agriculture",
     name: "Bachelor of Science in Agricultural Resource Management Technology",
   },
+  {
+    id: "bachelor-of-science-of-engineering-specializing-in-civil-and-environmental-engineering-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-engineering",
+    name: "Bachelor of Science of Engineering specializing in Civil and Environmental Engineering",
+  },
+  {
+    id: "bachelor-of-science-of-engineering-specializing-in-electrical-and-information-engineering-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-engineering",
+    name: "Bachelor of Science of Engineering specializing in Electrical and Information Engineering",
+  },
+  {
+    id: "bachelor-of-science-of-engineering-specializing-in-mechanical-and-manufacturing-engineering-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-engineering",
+    name: "Bachelor of Science of Engineering specializing in Mechanical and Manufacturing Engineering",
+  },
+  {
+    id: "bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-aquaculture-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-fisheries-and-marine-sciences",
+    name: "Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Aquaculture",
+  },
+  {
+    id: "bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-fisheries-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-fisheries-and-marine-sciences",
+    name: "Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Fisheries",
+  },
+  {
+    id: "bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-limnology-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-fisheries-and-marine-sciences",
+    name: "Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Limnology",
+  },
+  {
+    id: "bachelor-of-science-fisheries-and-marine-sciences-special-degree-in-oceanography-and-marine-geology-ruhuna",
+    universityId: "university-of-ruhuna",
+    facultyId: "faculty-of-fisheries-and-marine-sciences",
+    name: "Bachelor of Science (Fisheries and Marine Sciences) Special Degree in Oceanography and Marine Geology",
+  },
 ];
 
 export default degreesData;

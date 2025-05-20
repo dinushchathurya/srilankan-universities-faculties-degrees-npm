@@ -1257,7 +1257,7 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-arts",
     name: "Bachelor of Arts (General)",
   },
-   {
+  {
     id: "bachelor-of-arts-special-jaffna",
     universityId: "university-of-jaffna",
     facultyId: "faculty-of-arts",
@@ -1570,6 +1570,30 @@ export const degreesData: Degree[] = [
     universityId: "open-university-of-sri-lanka",
     facultyId: "faculty-of-humanities-and-social-sciences",
     name: "BA in English Language Teaching (BA/ELT)",
+  },
+  {
+    id: "bachelor-of-arts-in-social-sciences-ba-lanka",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Arts in Social Sciences (BA)",
+  },
+  {
+    id: "bachelor-of-laws-llb-lanka",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Laws (LL.B)",
+  },
+  {
+    id: "bachelor-of-management-studies-bms",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-humanities-and-social-sciences",
+    name: "Bachelor of Management Studies (BMS)",
+  },
+  {
+    id: "degree-of-bachelor-of-the-science-of-agriculture",
+    universityId: "open-university-of-sri-lanka",
+    facultyId: "faculty-of-natural-sciences",
+    name: "Degree of Bachelor of the Science of Agriculture",
   },
 ];
 

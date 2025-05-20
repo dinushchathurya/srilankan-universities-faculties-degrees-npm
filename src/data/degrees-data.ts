@@ -1595,6 +1595,73 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-natural-sciences",
     name: "Degree of Bachelor of the Science of Agriculture",
   },
+  // ======== EASTERN UNIVERSITY ========
+  {
+    id: "degree-of-bachelor-of-arts-general-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts (General)",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-drama-and-theatre-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Drama and Theatre",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-economics-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Economics",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-education-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Education",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-fine-arts-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Fine Arts",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-geography-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Geography",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-hindu-culture-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Hindu Culture",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-philosophy-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Philosophy",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-political-science-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Political Science",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-sociology-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Sociology",
+  },
+  {
+    id: "degree-of-bachelor-of-arts-special-in-tamill-lanka",
+    universityId: "eastern-university",
+    facultyId: "faculty-of-arts-and-culture",
+    name: "Degree of Bachelor of Arts Special in Tamill",
+  },
 ];
 
 export default degreesData;

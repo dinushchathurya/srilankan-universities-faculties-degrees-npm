@@ -2122,6 +2122,36 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-applied-sciences",
     name: "Bachelor of Science (Special) in Computer Science and Technology",
   },
+  {
+    id: "bachelor-of-science-in-computing-and-information-systems-sabaragamuwa",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science in Computing and Information Systems",
+  },
+  {
+    id: "bachelor-of-science-special-in-environmental-sciences-and-natural-resources-management-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Special) in Environmental Sciences and Natural Resources Management",
+  },
+  {
+    id: "bachelor-of-science-applied-science-in-environmental-science-and-natural-resource-management-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Applied Science) in Environmental Science and Natural Resource Management",
+  },
+  {
+    id: "bachelor-of-science-special-in-food-science-and-technology-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Special) in Food Science and Technology",
+  },
+  {
+    id: "bachelor-of-science-in-physical-education-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science in Physical Education",
+  },
 ];
 
 export default degreesData;

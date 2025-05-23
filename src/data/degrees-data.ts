@@ -2030,6 +2030,98 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-social-sciences-and-humanities",
     name: "Bachelor of Arts (Special) in Sinhala",
   },
+  // ======== WAYAMBA UNIVERSITY ========
+  {
+    id: "bachelor-of-science-plantation-management-external-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-agriculture-and-plantation-management",
+    name: "Bachelor of Science (Plantation Management) (External)",
+  },
+  {
+    id: "bachelor-of-science-of-agriculture-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-agriculture-and-plantation-management",
+    name: "Bachelor of Science of Agriculture",
+  },
+  {
+    id: "bachelor-of-science-general-lanka-2",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (General)",
+  },
+  {
+    id: "bachelor-of-science-in-joint-major-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science in (Joint Major)",
+  },
+  {
+    id: "bsc-special-degree-in-mathematics-with-statistics-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "BSc (Special) Degree in mathematics with statistics",
+  },
+  {
+    id: "bachelor-of-science-special-in-accountancy-and-business-finance-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-business-studies-and-finance",
+    name: "Bachelor of Science (Special) in Accountancy and Business Finance",
+  },
+  {
+    id: "bachelor-of-science-special-in-banking-and-finance-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-business-studies-and-finance",
+    name: "Bachelor of Science (Special) in Banking and Finance",
+  },
+  {
+    id: "bachelor-of-science-special-in-business-management-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-business-studies-and-finance",
+    name: "Bachelor of Science (Special) in Business Management",
+  },
+  {
+    id: "bachelor-of-science-special-in-insurance-and-valuation-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-business-studies-and-finance",
+    name: "Bachelor of Science (Special) in Insurance and Valuation",
+  },
+  {
+    id: "bachelor-of-science-special-in-food-production-and-technology-management-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-livestock-fisheries-and-nutrition",
+    name: "Bachelor of Science (Special) in Food Production and Technology Management",
+  },
+  {
+    id: "bachelor-of-science-special-in-food-science-and-nutrition-lanka",
+    universityId: "wayamba-university",
+    facultyId: "faculty-of-livestock-fisheries-and-nutrition",
+    name: "Bachelor of Science (Special) in Food Science and Nutrition",
+  },
+  // ======== SABARAGAMUWA UNIVERSITY ========
+  {
+    id: "bachelor-of-science-in-agriculture-sciences-and-management-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-agricultural-sciences",
+    name: "Bachelor of Science in Agriculture Sciences and Management",
+  },
+  {
+    id: "bachelor-of-science-special-in-applied-physics-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Special) in Applied Physics",
+  },
+  {
+    id: "bachelor-of-science-special-in-chemical-technology-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Special) in Chemical Technology",
+  },
+  {
+    id: "bachelor-of-science-special-in-computer-science-and-technology-lanka",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Special) in Computer Science and Technology",
+  },
 ];
 
 export default degreesData;

@@ -2152,6 +2152,12 @@ export const degreesData: Degree[] = [
     facultyId: "faculty-of-applied-sciences",
     name: "Bachelor of Science in Physical Education",
   },
+  {
+    id: "bachelor-of-science-applied-sciences-physical-sciences-sabaragamuwa",
+    universityId: "sabaragamuwa-university",
+    facultyId: "faculty-of-applied-sciences",
+    name: "Bachelor of Science (Applied Sciences) Physical Sciences",
+  },
 ];
 
 export default degreesData;

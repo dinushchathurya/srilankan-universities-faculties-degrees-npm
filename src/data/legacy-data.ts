@@ -147,9 +147,6 @@ export const legacyData: LegacyUniversityData = {
         "Bachelor of Science (Special) in Engineering",
         "Bachelor of Science (Special) in Mechanical Engineering",
         "Bachelor of Science (Special) in Production Engineering",
-        "Bachelor of Science of Engineering specializing in Civil and Environmental Engineering",
-        "Bachelor of Science of Engineering specializing in Electrical and Information Engineering",
-        "Bachelor of Science of Engineering specializing in Mechanical and Manufacturing Engineering"
       ],
       "Faculty of Medicine": [
         "MBBS"

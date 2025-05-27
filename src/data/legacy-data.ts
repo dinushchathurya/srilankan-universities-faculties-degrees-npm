@@ -254,10 +254,10 @@ export const legacyData: LegacyUniversityData = {
         "Bachelor of Management Studies (BMS)"
       ],
       "Faculty of Management Studies and Commerce": [
-        "Bachelor of Business Administration (Accounting Special) (Special)",
-        "Bachelor of Business Administration (Financial Management Special) (Special)",
-        "Bachelor of Business Administration (Human Resource Management Special) (Special)",
-        "Bachelor of Business Administration (Marketing Special) (Special)",
+        "Bachelor of Business Administration Accounting (Special)",
+        "Bachelor of Business Administration Financial Management (Special)",
+        "Bachelor of Business Administration Human Resource Management (Special)",
+        "Bachelor of Business Administration Marketing (Special)",
         "Bachelor of Business Management (Online)",
         "Bachelor of Commerce",
         "Bachelor of Commerce (Special)",

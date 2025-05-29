@@ -1235,7 +1235,7 @@ export const degreesData: Degree[] = [
   {
     id: "degree-of-bachelor-of-information-technology-external-degree-moratuwa",
     universityId: "university-of-moratuwa",
-    facultyId: "faculty-of-information-technology-moratuwa,
+    facultyId: "faculty-of-information-technology-moratuwa",
     name: "Degree of Bachelor of Information Technology - External Degree",
   },
   {

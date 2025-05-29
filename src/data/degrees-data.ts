@@ -1241,13 +1241,13 @@ export const degreesData: Degree[] = [
   {
     id: "degree-of-bachelor-of-science-in-information-technology-moratuwa",
     universityId: "university-of-moratuwa",
-    facultyId: "faculty-of-information-technology-moratuwa,
+    facultyId: "faculty-of-information-technology-moratuwa",
     name: "Degree of Bachelor of Science in Information Technology",
   },
   {
     id: "honours-degree-of-bachelor-of-science-in-information-technology-and-management-moratuwa",
     universityId: "university-of-moratuwa",
-    facultyId: "faculty-of-information-technology-moratuwa,
+    facultyId: "faculty-of-information-technology-moratuwa", 
     name: "Honours Degree of Bachelor of Science in Information Technology and Management",
   },
   // ======== UNIVERSITY OF JAFFNA ========

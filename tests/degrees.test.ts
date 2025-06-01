@@ -14,7 +14,7 @@ describe("Degrees Module", () => {
       expect(llb).toBeDefined();
       expect(llb?.name).toBe("Bachelor of Laws");
       expect(llb?.universityId).toBe("university-of-colombo");
-      expect(llb?.facultyId).toBe("faculty-of-law");
+      expect(llb?.facultyId).toBe("faculty-of-law-colombo");
     });
   });
 
@@ -56,7 +56,7 @@ describe("Degrees Module", () => {
     it("should work with IDs as input", () => {
       const degrees = getDegreesByFaculty(
         "university-of-colombo",
-        "faculty-of-law"
+        "faculty-of-law-colombo"
       );
       expect(degrees.length).toBeGreaterThan(0);
     });

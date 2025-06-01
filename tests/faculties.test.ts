@@ -15,7 +15,7 @@ describe('Faculties Module', () => {
       expect(Array.isArray(faculties)).toBe(true);
       expect(faculties.length).toBeGreaterThan(0);
       
-      const facultyOfLaw = faculties.find(f => f.id === 'faculty-of-law');
+      const facultyOfLaw = faculties.find(f => f.id === 'faculty-of-law-colombo');
       expect(facultyOfLaw).toBeDefined();
       expect(facultyOfLaw?.name).toBe('Faculty of Law');
       expect(facultyOfLaw?.universityId).toBe('university-of-colombo');
@@ -76,7 +76,7 @@ describe('Faculties Module', () => {
     });
     
     it('should find faculty by ID in a university', () => {
-      const faculty = getFaculty('University of Colombo', 'faculty-of-law');
+      const faculty = getFaculty('University of Colombo', 'faculty-of-law-colombo');
       
       expect(faculty).toBeDefined();
       expect(faculty?.name).toBe('Faculty of Law');
@@ -114,7 +114,7 @@ describe('Faculties Module', () => {
   describe('validateFaculty()', () => {
     it('should return true for valid faculties', () => {
       expect(validateFaculty('University of Colombo', 'Faculty of Law')).toBe(true);
-      expect(validateFaculty('university-of-colombo', 'faculty-of-law')).toBe(true);
+      expect(validateFaculty('university-of-colombo', 'faculty-of-law-colombo')).toBe(true);
     });
     
     it('should return false for invalid faculties', () => {

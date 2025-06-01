@@ -8,7 +8,7 @@
 <img alt="Website" src="https://img.shields.io/website?down_message=red&style=plastic&up_message=online&url=https%3A%2F%2Fdinushchathurya.github.io%2F">
 </a>
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDinushChathurya">
-<img src="https://img.shields.io/badge/made%20with%20love-by%20srilanka-orange">
+<img src="https://img.shields.io/badge/made%20with%20love-to%20srilanka-orange">
 </p>
 
 <h1 align="center">All Sri Lankan Universities, Faculties and Undergraduate Degree Programs</h1>
@@ -24,7 +24,6 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#api-reference">API Reference</a></li>
-    <li><a href="#framework-examples">Framework Example</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#support">Support</a></li>
@@ -53,10 +52,15 @@ const allUniversities = getUniversities();
 
 // Get faculties of a selected university
 const colomboFaculties = getFaculties("University of Colombo");
-// ["Faculty of Art", "Faculty of Education", "Faculty of Law", ...]
+// ["Faculty of Arts", "Faculty of Education", "Faculty of Law", ...]
 
 // Get degrees of a selected faculty at a university
 const lawDegrees = getDegrees("University of Colombo", "Faculty of Law");
+// ["Bachelor of Laws"]
+
+// Access legacy data structure
+const { universities_data } = require("@dinush/srilankan-universities-faculties-degrees");
+const rawData = universities_data["University of Colombo"]["Faculty of Law"];
 // ["Bachelor of Laws"]
 ```
 
@@ -68,6 +72,10 @@ import {
   getAllUniversities,
   getFacultiesByUniversity,
   getDegreesByFaculty,
+  getUniversity,
+  getFaculty,
+  validateUniversity,
+  validateFaculty,
   University,
   Faculty,
   Degree
@@ -83,41 +91,62 @@ const universities: University[] = getAllUniversities();
 ]
 */
 
+// Get specific university by name or ID (case-insensitive)
+const colombo: University | undefined = getUniversity("University of Colombo");
+const colomboById: University | undefined = getUniversity("university-of-colombo");
+
+// Validate university existence
+const isValid: boolean = validateUniversity("University of Colombo"); // true
+
 // Get faculties of a university with detailed data
 const faculties: Faculty[] = getFacultiesByUniversity("University of Colombo");
 /*
 [
-  { id: "faculty-of-law", universityId: "university-of-colombo", name: "Faculty of Law" },
-  { id: "faculty-of-science", universityId: "university-of-colombo", name: "Faculty of Science" },
+  { id: "faculty-of-law-colombo", universityId: "university-of-colombo", name: "Faculty of Law" },
+  { id: "faculty-of-science-colombo", universityId: "university-of-colombo", name: "Faculty of Science" },
   ...
 ]
 */
+
+// Get specific faculty
+const lawFaculty: Faculty | undefined = getFaculty("University of Colombo", "Faculty of Law");
+
+// Validate faculty in university
+const facultyExists: boolean = validateFaculty("University of Colombo", "Faculty of Law"); // true
 
 // Get degrees offered by a faculty
 const degrees: Degree[] = getDegreesByFaculty("University of Colombo", "Faculty of Law");
 /*
 [
   {
-    id: "llb",
+    id: "bachelor-of-laws-colombo",
     universityId: "university-of-colombo",
-    facultyId: "faculty-of-law",
+    facultyId: "faculty-of-law-colombo",
     name: "Bachelor of Laws"
   }
 ]
 */
+
+// Get all data
+const allUniversities: University[] = getAllUniversities();
+const allFaculties: Faculty[] = getAllFaculties();
+const allDegrees: Degree[] = getAllDegrees();
 ```
 
 ### Individual Module Imports (TypeScript / ES Modules)
 
 ```typescript
 // Import only the universities module
-import { getAllUniversities, getUniversity } from "@dinush/srilankan-universities-faculties-degrees/universities";
+import { getAllUniversities, getUniversity, validateUniversity } from "@dinush/srilankan-universities-faculties-degrees/universities";
 
 // Import only the faculties module
-import { getFacultiesByUniversity, getFaculty } from "@dinush/srilankan-universities-faculties-degrees/faculties";
+import { getAllFaculties, getFacultiesByUniversity, getFaculty, validateFaculty } from "@dinush/srilankan-universities-faculties-degrees/faculties";
 
 // Import only the degrees module
-import { getDegreesByFaculty } from "@dinush/srilankan-universities-faculties-degrees/degrees";
+import { getAllDegrees, getDegreesByFaculty } from "@dinush/srilankan-universities-faculties-degrees/degrees";
+
+// Import legacy compatibility
+import { getUniversities, getFaculties, getDegrees } from "@dinush/srilankan-universities-faculties-degrees/compatibility";
 ```
 
 ## API Reference
@@ -127,7 +156,7 @@ import { getDegreesByFaculty } from "@dinush/srilankan-universities-faculties-de
 #### Universities
 
 - `getAllUniversities()`: Returns all universities with detailed data
-- `getUniversity(nameOrId)`: Returns a specific university by name or ID
+- `getUniversity(nameOrId)`: Returns a specific university by name or ID (case-insensitive)
 - `validateUniversity(nameOrId)`: Validates if a university exists
 
 #### Faculties
@@ -149,9 +178,9 @@ These functions are maintained for backward compatibility:
 - `getUniversities()`: Returns array of university names
 - `getFaculties(university)`: Returns array of faculty names
 - `getDegrees(university, faculty)`: Returns array of degree names
+- `universities_data`: Legacy data structure for direct access
 
-## Framework Examples 
-
+## Framework Examples
 - [NodeJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/node-demo)
 - [ReactJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/react-demo)
 - [NextJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/next-demo)
@@ -185,5 +214,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Author
 
 <p align="center">
-    Made with ❤️ & ☕ by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a>
-</p
+    Made with ❤️ & ☕ by <a href="https://dinushchathurya.me/"><u style="color:#0193f0;">Dinush Chathurya</u></a> as a part of <a href="https://github.com/open-source-srilanka"><u style="color:#0193f0;">ProjectOSS</u></a>
+</p>

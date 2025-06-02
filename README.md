@@ -8,7 +8,7 @@
 <img alt="Website" src="https://img.shields.io/website?down_message=red&style=plastic&up_message=online&url=https%3A%2F%2Fdinushchathurya.github.io%2F">
 </a>
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDinushChathurya">
-<img src="https://img.shields.io/badge/made%20with%20love-to%20srilanka-orange">
+<img src="https://img.shields.io/badge/made%20with%20love-by%20srilanka-orange">
 </p>
 
 <h1 align="center">All Sri Lankan Universities, Faculties and Undergraduate Degree Programs</h1>
@@ -17,7 +17,9 @@
   </p><br><br>
 </div>
 
-⚠️ CAUTION: This package has been updated to be fully compatible with TypeScript, providing enhanced type safety and a modern API. However, please note that the current version (2.0.0-rc.1) is a release candidate and should be used with care. Some data lookups might not function correctly due to ID inconsistencies between universities, faculties, and degrees data. To install the release candidate version, use `npm install @dinush/srilankan-universities-faculties-degrees@next`. We're actively working to fix these inconsistencies for the stable release. 
+> Note: Use `npm install @dinush/srilankan-universities-faculties-degrees@1.0.3` to install the stable version of this package. 
+
+⚠️ CAUTION: This package has been updated to be fully compatible with TypeScript, providing enhanced type safety and a modern API. However, please note that the current version (2.0.0-rc.14) is a release candidate and should be used with care. Some data lookups might not function correctly due to ID inconsistencies between universities, faculties, and degrees data. To install the release candidate version, use `npm install @dinush/srilankan-universities-faculties-degrees@next` or `npm install @dinush/srilankan-universities-faculties-degrees@2.0.0-rc.14`. We're actively working to fix these inconsistencies for the stable release. 
 
 ## Table of Contents
 <ol>
@@ -35,7 +37,7 @@
 via npm
 
 ```bash
-npm i @dinush/srilankan-universities-faculties-degrees --save
+npm i @dinush/srilankan-universities-faculties-degrees@next --save
 ```
 
 ## Usage 

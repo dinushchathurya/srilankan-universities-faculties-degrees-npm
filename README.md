@@ -17,10 +17,6 @@
   </p><br><br>
 </div>
 
-> Note: Use `npm install @dinush/srilankan-universities-faculties-degrees@1.0.3` to install the stable version of this package. 
-
-⚠️ CAUTION: This package has been updated to be fully compatible with TypeScript, providing enhanced type safety and a modern API. However, please note that the current version (2.0.0-rc.14) is a release candidate and should be used with care. Some data lookups might not function correctly due to ID inconsistencies between universities, faculties, and degrees data. To install the release candidate version, use `npm install @dinush/srilankan-universities-faculties-degrees@next` or `npm install @dinush/srilankan-universities-faculties-degrees@2.0.0-rc.14`. We're actively working to fix these inconsistencies for the stable release. 
-
 ## Table of Contents
 <ol>
     <li><a href="#installation">Installation</a></li>
@@ -37,7 +33,7 @@
 via npm
 
 ```bash
-npm i @dinush/srilankan-universities-faculties-degrees@next --save
+npm i @dinush/srilankan-universities-faculties-degrees@2.0.0
 ```
 
 ## Usage 
@@ -187,6 +183,7 @@ These functions are maintained for backward compatibility:
 - [ReactJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/react-demo)
 - [NextJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/next-demo)
 - [NestJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/nest-demo)
+- [Other Example](https://github.com/dinushchathurya/cuddly-couscous)
 
 ## Contributing
 

@@ -3,19 +3,50 @@
 # Source files (already compiled to /dist)
 /src
 
-# Test configuration
+# Test files
+/tests
+**/*.test.ts
+**/*.test.js
+**/*.spec.ts
+**/*.spec.js
+
+# Configuration files
 vitest.config.ts
-
-# Tooling configuration
 tsup.config.ts
+tsconfig.json
 
-# Dev Dependencies (npm ignores these by default, but explicit is good)
+# GitHub workflows and templates
+/.github
+
+# Development files
 /node_modules
+.env
+.env.local
+.env.*.local
 
-# CI/CD
-release.yaml
+# Build artifacts (keep only /dist)
+/build
+/lib
+/coverage
 
 # Common OS and editor files
 .DS_Store
+Thumbs.db
 *.log
-.vscode
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# npm/yarn files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity

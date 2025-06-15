@@ -15,7 +15,6 @@
   <p align="center">
     This package contains all Sri Lankan Universities, Faculties and Undergraduate Degree Programs.
   </p>
-</div>
 
 ## Table of Contents
 <ol>

@@ -1,0 +1,21 @@
+# .npmignore
+
+# Source files (already compiled to /dist)
+/src
+
+# Test configuration
+vitest.config.ts
+
+# Tooling configuration
+tsup.config.ts
+
+# Dev Dependencies (npm ignores these by default, but explicit is good)
+/node_modules
+
+# CI/CD
+release.yaml
+
+# Common OS and editor files
+.DS_Store
+*.log
+.vscode

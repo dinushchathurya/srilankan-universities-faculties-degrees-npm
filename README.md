@@ -183,7 +183,7 @@ These functions are maintained for backward compatibility:
 - [ReactJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/react-demo)
 - [NextJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/next-demo)
 - [NestJS Example](https://github.com/dinushchathurya/srilankan-provinces-districts-npm-package-demo/tree/main/nest-demo)
-- [Other Example](https://github.com/dinushchathurya/cuddly-couscous)
+- [Other Examples](https://github.com/dinushchathurya/cuddly-couscous)
 
 ## Contributing
 

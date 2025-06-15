@@ -1,0 +1,206 @@
+name: 🐛 Bug Report
+description: Create a report to help us improve the package
+title: "[BUG]: "
+labels: ["bug", "needs-triage"]
+assignees:
+  - dinushchathurya
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible to help us resolve the issue quickly.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Prerequisites
+      description: Please confirm the following before submitting your bug report
+      options:
+        - label: I have searched for existing issues that might be related to this bug
+          required: true
+        - label: I have read the [README.md](https://github.com/dinushchathurya/srilankan-universities-faculties-degrees-npm/blob/main/README.md) documentation
+          required: true
+        - label: I am using the latest version of the package
+          required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: 🐛 Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Describe the bug you encountered...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Import the package using '...'
+        2. Call function '...'
+        3. Pass parameters '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: ✅ Expected Behavior
+      description: A clear and concise description of what you expected to happen
+      placeholder: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: ❌ Actual Behavior
+      description: A clear and concise description of what actually happened
+      placeholder: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: code-sample
+    attributes:
+      label: 💻 Code Sample
+      description: Please provide a minimal code sample that reproduces the issue
+      render: typescript
+      placeholder: |
+        // Minimal code sample that reproduces the issue
+        import { getUniversities } from '@dinush/srilankan-universities-faculties-degrees';
+        
+        const universities = getUniversities();
+        console.log(universities);
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-logs
+    attributes:
+      label: 📋 Error Logs
+      description: If applicable, add error logs to help explain your problem
+      render: shell
+      placeholder: Paste any error messages or logs here...
+
+  - type: dropdown
+    id: package-version
+    attributes:
+      label: 📦 Package Version
+      description: Which version of the package are you using?
+      options:
+        - "2.0.0 (latest)"
+        - "1.x.x (legacy)"
+        - "I don't know"
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: 🟢 Node.js Version
+      description: What version of Node.js are you running?
+      placeholder: "e.g., 18.17.0"
+    validations:
+      required: true
+
+  - type: input
+    id: package-manager
+    attributes:
+      label: 📦 Package Manager
+      description: Which package manager are you using?
+      placeholder: "e.g., npm 9.6.7, yarn 1.22.19, pnpm 8.6.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: 💻 Operating System
+      description: What operating system are you using?
+      options:
+        - "Windows"
+        - "macOS"
+        - "Linux (Ubuntu)"
+        - "Linux (Other)"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module-system
+    attributes:
+      label: 📝 Module System
+      description: Which module system are you using?
+      options:
+        - "ESM (import/export)"
+        - "CommonJS (require/module.exports)"
+        - "TypeScript"
+        - "Mixed/Unsure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: runtime-environment
+    attributes:
+      label: 🏃 Runtime Environment
+      description: Where are you running the code?
+      options:
+        - "Node.js"
+        - "Browser"
+        - "React Application"
+        - "Next.js Application"
+        - "NestJS Application"
+        - "Vue.js Application"
+        - "Angular Application"
+        - "Other"
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 Additional Context
+      description: Add any other context about the problem here
+      placeholder: |
+        - Are you using any bundlers (Webpack, Rollup, etc.)?
+        - Are you using TypeScript? If yes, what version?
+        - Any other relevant information...
+
+  - type: checkboxes
+    id: data-related
+    attributes:
+      label: 📊 Data-Related Issue
+      description: If this is a data-related issue, please check all that apply
+      options:
+        - label: This is about incorrect university data
+        - label: This is about missing faculty information
+        - label: This is about wrong degree program names
+        - label: This is about outdated information
+        - label: I have verified the data with official university sources
+
+  - type: textarea
+    id: data-source
+    attributes:
+      label: 🔗 Data Source (if applicable)
+      description: If reporting incorrect data, please provide official source links
+      placeholder: |
+        Please provide links to official university websites or UGC documents that support your claim:
+        - University official website: https://...
+        - UGC publication: https://...
+        - Ministry of Education document: https://...
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ### 🙏 Thank you for reporting this bug!
+        
+        Your contribution helps make this package better for the entire Sri Lankan developer community. We'll review your report and get back to you as soon as possible.
+        
+        **Need immediate help?** You can also:
+        - 📧 Email: [dinushchathurya@gmail.com](mailto:dinushchathurya@gmail.com)
+        - 🐙 GitHub: [@dinushchathurya](https://github.com/dinushchathurya)
+        - 🌐 Website: [dinushchathurya.me](https://dinushchathurya.me)

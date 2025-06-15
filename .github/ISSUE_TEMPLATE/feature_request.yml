@@ -1,0 +1,168 @@
+name: 🚀 Feature Request
+description: Suggest a new feature or enhancement for the Sri Lankan Universities package
+title: "[FEATURE] "
+labels: ["enhancement", "feature-request"]
+projects: ["dinushchathurya/1"]
+assignees:
+  - dinushchathurya
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a new feature! 🙏
+        
+        Please fill out this template to help us understand your feature request better.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 🎯 Feature Description
+      description: A clear and concise description of the feature you'd like to see implemented.
+      placeholder: |
+        Example: Add support for filtering universities by type (public/private)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: 🤔 Problem Statement
+      description: What problem does this feature solve? What use case does it address?
+      placeholder: |
+        Example: Currently, there's no way to distinguish between public and private universities when querying the data, which is needed for applications that want to filter by institution type.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 💡 Proposed Solution
+      description: Describe how you envision this feature working. Include API examples if applicable.
+      placeholder: |
+        Example: 
+        ```typescript
+        // Add a 'type' field to University interface
+        interface University {
+          id: string;
+          name: string;
+          code: string;
+          type: 'public' | 'private';
+        }
+        
+        // Add filtering function
+        getUniversitiesByType(type: 'public' | 'private'): University[]
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternative Solutions
+      description: Have you considered any alternative approaches to solve this problem?
+      placeholder: Describe any alternative solutions or features you've considered.
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: 📋 Feature Type
+      description: What type of feature is this?
+      options:
+        - New API method/function
+        - Data enhancement
+        - Performance improvement
+        - Developer experience improvement
+        - Documentation improvement
+        - TypeScript types improvement
+        - Build/tooling improvement
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: ⚡ Priority Level
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would be helpful
+        - High - Important for my use case
+        - Critical - Blocking my project
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: breaking-changes
+    attributes:
+      label: 🔄 Breaking Changes
+      description: Would this feature introduce breaking changes?
+      options:
+        - label: This feature would introduce breaking changes to the existing API
+        - label: This feature is backward compatible
+        - label: I'm not sure about backward compatibility
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 🎯 Use Cases
+      description: Describe specific use cases where this feature would be valuable.
+      placeholder: |
+        Example:
+        1. Education portal that needs to categorize universities by type
+        2. Scholarship application system that only shows public universities
+        3. Research application that analyzes public vs private education data
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 Additional Context
+      description: Add any other context, screenshots, mockups, or examples that would help explain the feature.
+      placeholder: Any additional information that would be helpful...
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: 🤝 Contribution
+      description: Are you willing to contribute to implementing this feature?
+      options:
+        - label: I'm willing to submit a pull request for this feature
+        - label: I can help with testing once implemented
+        - label: I can provide additional data/research if needed
+        - label: I can help with documentation
+        - label: I prefer to leave implementation to maintainers
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't been requested before
+          required: true
+        - label: I have provided a clear description of the feature and its benefits
+          required: true
+        - label: I understand this is an open source project and features are implemented on a volunteer basis
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        **Thank you for your feature request!** 🎉
+        
+        We appreciate you taking the time to suggest improvements to the Sri Lankan Universities package. 
+        Feature requests help make this library more useful for the entire community.
+        
+        **What happens next?**
+        - The maintainers will review your request
+        - We may ask for clarification or additional details
+        - If approved, the feature will be added to our roadmap
+        - You'll be notified of any updates on this issue
+        
+        **Want to contribute?** Check out our [Contributing Guide](../CONTRIBUTING.md) to get started!
+        
+        ---
+        
+        Made with ❤️ for the Sri Lankan developer community 🇱🇰
